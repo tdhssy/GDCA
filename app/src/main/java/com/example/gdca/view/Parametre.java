@@ -15,6 +15,6 @@ public class Parametre extends View {
         activity.setContentView(R.layout.parametre);
 
         retour = (Button) activity.findViewById(R.id.button);
-        retour.setOnClickListener(new ParametreController());
+        retour.setOnClickListener(new ParametreController(activity));
     }
 }

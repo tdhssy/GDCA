@@ -1,5 +1,6 @@
 package com.example.gdca.controller;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import com.example.gdca.R;
@@ -9,7 +10,11 @@ import com.example.gdca.view.MainView;
 /**
  * Controller de MainView
  */
-public class MainController implements View.OnClickListener {
+public class MainController extends Controller implements View.OnClickListener {
+    public MainController(Activity activity) {
+        super(activity);
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId())
@@ -19,7 +24,7 @@ public class MainController implements View.OnClickListener {
                 break;
             case R.id.b2:
                 System.out.println("b2 cliquer");
-                ChangeView.getChangeView().switchPage(PageName.PARAMETRE);
+                new ChangeView(currentActivity, PageName.PARAMETRE);
                 break;
         }
     }
