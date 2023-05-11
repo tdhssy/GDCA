@@ -8,7 +8,7 @@ gradlew.bat
 local.properties
 app/proguard-rules.pro
 app/build
-
+tmp
 
 # Log file
 *.log
