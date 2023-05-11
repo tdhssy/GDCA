@@ -8,7 +8,7 @@ import com.example.gdca.controller.PageName;
 
 /**
  * Main class
- * test
+ * test 2
  */
 public class Launch extends AppCompatActivity {
     @Override
