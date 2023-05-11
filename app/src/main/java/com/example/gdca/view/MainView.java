@@ -19,9 +19,9 @@ public class MainView extends View{
         activity.setContentView(R.layout.activity_main);
 
         b1 = (Button) activity.findViewById(R.id.b1);
-        //b1.setOnClickListener(null);
+        b1.setOnClickListener(new MainController());
 
         b2 = (Button) activity.findViewById(R.id.b2);
-        //b2.setOnClickListener(null);
+        b2.setOnClickListener(new MainController());
     }
 }

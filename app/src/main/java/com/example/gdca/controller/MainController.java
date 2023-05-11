@@ -6,17 +6,10 @@ import com.example.gdca.R;
 import com.example.gdca.model.Model;
 import com.example.gdca.view.MainView;
 
+/**
+ * Controller de MainView
+ */
 public class MainController implements View.OnClickListener {
-
-    private  Model cModel;
-    private View cView;
-
-    public MainController(View view, Model model){
-        cModel=model;
-        cView=view;
-
-    }
-
     @Override
     public void onClick(View view) {
         switch (view.getId())
@@ -26,6 +19,7 @@ public class MainController implements View.OnClickListener {
                 break;
             case R.id.b2:
                 System.out.println("b2 cliquer");
+                ChangeView.getChangeView().switchPage(PageName.PARAMETRE);
                 break;
         }
     }
