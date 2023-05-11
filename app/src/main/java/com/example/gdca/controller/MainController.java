@@ -1,10 +1,21 @@
 package com.example.gdca.controller;
 
+import android.os.Bundle;
 import android.view.View;
 import com.example.gdca.R;
+import com.example.gdca.model.Model;
+import com.example.gdca.view.MainView;
 
-import com.example.gdca.view.MainActivity;
-public class PageAccueilController implements View.OnClickListener {
+public class MainController implements View.OnClickListener {
+
+    private  Model cModel;
+    private View cView;
+
+    public MainController(View view, Model model){
+        cModel=model;
+        cView=view;
+
+    }
 
     @Override
     public void onClick(View view) {
