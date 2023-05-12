@@ -1,4 +1,4 @@
-package com.example.gdca.controller;
+package com.example.gdca.controller.eventHandler;
 
 import android.app.Activity;
 

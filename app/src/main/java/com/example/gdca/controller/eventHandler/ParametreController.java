@@ -1,8 +1,11 @@
-package com.example.gdca.controller;
+package com.example.gdca.controller.eventHandler;
 
 import android.app.Activity;
 import android.view.View;
 import com.example.gdca.R;
+import com.example.gdca.controller.ChangeView;
+import com.example.gdca.controller.PageName;
+import com.example.gdca.controller.eventHandler.Controller;
 
 /**
  * Controller de Parametre

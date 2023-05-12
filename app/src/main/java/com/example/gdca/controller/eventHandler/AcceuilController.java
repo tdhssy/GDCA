@@ -1,17 +1,16 @@
-package com.example.gdca.controller;
+package com.example.gdca.controller.eventHandler;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.view.View;
 import com.example.gdca.R;
-import com.example.gdca.model.Model;
-import com.example.gdca.view.MainView;
+import com.example.gdca.controller.ChangeView;
+import com.example.gdca.controller.PageName;
 
 /**
  * Controller de MainView
  */
-public class MainController extends Controller implements View.OnClickListener {
-    public MainController(Activity activity) {
+public class AcceuilController extends Controller implements View.OnClickListener {
+    public AcceuilController(Activity activity) {
         super(activity);
     }
 
@@ -21,6 +20,7 @@ public class MainController extends Controller implements View.OnClickListener {
         {
             case R.id.b1:
                 System.out.println("b1 cliquer");
+                new ChangeView(currentActivity, PageName.CONTACT);
                 break;
             case R.id.b2:
                 System.out.println("b2 cliquer");
