@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GDCA</string>
+
+    <!--Temporaire -->
+    <string name="b1">Button 1</string>
+    <string name="b2">Go Parametre</string>
+    <!--           -->
+
 </resources>
