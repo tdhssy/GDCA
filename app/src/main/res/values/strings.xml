@@ -2,10 +2,81 @@
     <string name="app_name">GDCA</string>
 
     <!-- Bouton -->
-    <string name="Bouton_go_contact">Go Contact</string>
-    <string name="Bouton_go_parametre">Go Parametre</string>
+    <string name="Bouton_go_contact">Contact</string>
+    <string name="Bouton_go_parametre">Paramètres</string>
     <string name="Bouton_retour">Retour</string>
     <string name="Bouton_menu">Menu</string>
-    <!--        -->
+    <string name="Preference">Préférence</string>
+    <string name="APropos">A propos</string>
+    <string name="AppelerUnExpert">Appeler un expert</string>
+    <string name="TrouverMecanicienAProximite">Trouver un mecanicien a proximité</string>
+    <string name="Quitter">Quitter</string>
+
+
+    <!-- Texte -->
+    <string name="Aide">Aide</string>
+    <string name="Partie">Partie</string>
+    <string name="Pedalier">Pédalier</string>
+    <string name="Suspension">Suspension</string>
+    <string name="Cadre">Cadre</string>
+    <string name="Frein">Frein</string>
+    <string name="Roue">Roue</string>
+    <string name="Guidon">Guidon</string>
+    <string name="Selle">Selle</string>
+
+    <string name="Plateaux">Plateaux</string>
+    <string name="Manivelles">Manivelles</string>
+    <string name="Axe">Axe</string>
+    <string name="Pedales">Pédales</string>
+
+    <string name="Fourche">Fourche</string>
+    <string name="Amortisseur">Amortisseur</string>
+    <string name="Ressorts">Ressorts</string>
+    <string name="JointsDetancheite">Joints D\'étanchéité</string>
+
+    <string name="Tubes">Tubes</string>
+    <string name="Jonctions">Jonctions</string>
+    <string name="Pattes">Pattes</string>
+    <string name="DouilleDeDirection">Douille De Direction</string>
+    <string name="DouilleDeBoitierDePedalier">Douille De Boitier De Pédalier</string>
+    <string name="TigeDeSelle">Tige De Selle</string>
+
+    <string name="LevierDeFrein">Levier de frein</string>
+    <string name="CableDeFrein">Cable de frein</string>
+    <string name="EtrierDeFrein">Etrier de frein</string>
+    <string name="PatinsDeFrein">Patins de frein</string>
+    <string name="DisquesDeFrein">Disque de frein</string>
+    <string name="PlaquettesDeFrein">Plaquettes de frein</string>
+
+    <string name="Coque">Coque</string>
+    <string name="Rembourrage">Rembourrage</string>
+    <string name="Revetement">Revêtement</string>
+    <string name="Rails">Rails</string>
+    <string name="Tige">Tige</string>
+
+    <string name="Potence">Potence</string>
+    <string name="Cintre">Cintre</string>
+    <string name="ManetteDeVitesse">Manette de vitesse</string>
+    <string name="Poignees">Poignées</string>
+    <string name="Barends">Bar-ends</string>
+
+    <string name="Moyeu">Moyeu</string>
+    <string name="Rayon">Rayon</string>
+    <string name="Jante">Jante</string>
+    <string name="Pneu">Pneu</string>
+    <string name="ChambreAAire">Chambre a aire</string>
+    <string name="BlocageRapide">Blocage rapide</string>
+    <string name="FondDeJante">Fond de jante</string>
+    <string name="Valve">Valve</string>
+
+
+    <!-- problème -->
+    <string name="CassureDeRayon">Cassure des rayons</string>
+    <string name="DesserageDesRayons">Desserage des rayons</string>
+    <string name="Rouille">Rouille</string>
+
+
+    <!--Long Texte -->
+    <string name="TexteContact">Si aucun de vos problèmes n\'a été trouvé veuillez vous référer à un professionel</string>
 
 </resources>
