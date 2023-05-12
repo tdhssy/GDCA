@@ -6,5 +6,7 @@ package com.example.gdca.controller;
 public enum PageName {
     ACCEUIL,
     PARAMETRE,
-    CONTACT
+    CONTACT,
+    AIDE,
+    DESCRIPTION
 }

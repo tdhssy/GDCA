@@ -15,7 +15,7 @@ public class Launch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         @SuppressWarnings("unused")
-        ChangeView controller = new ChangeView(this, PageName.ACCEUIL);
+        ChangeView controller = new ChangeView(this, PageName.ACCEUIL, null);
     }
 
 }

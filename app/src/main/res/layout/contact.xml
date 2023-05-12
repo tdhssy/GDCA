@@ -11,10 +11,16 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
     <Button
-            android:text="retour main"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button2"
+            android:layout_height="wrap_content" android:id="@+id/b_retour"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:text="@string/Bouton_retour"/>
+    <Button
+            android:text="@string/b_go_parametre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/go_param"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
