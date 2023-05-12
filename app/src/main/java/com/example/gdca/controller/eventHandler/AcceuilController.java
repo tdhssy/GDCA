@@ -1,7 +1,9 @@
 package com.example.gdca.controller.eventHandler;
 
 import android.app.Activity;
+import android.view.TouchDelegate;
 import android.view.View;
+import android.widget.Toast;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
 import com.example.gdca.controller.PageName;
@@ -19,6 +21,7 @@ public class AcceuilController extends Controller implements View.OnClickListene
     public AcceuilController(Activity activity, PageName to_go_page, PageName page_precedente)
     {
         super(activity, to_go_page, page_precedente);
+
     }
 
     /**
@@ -31,13 +34,14 @@ public class AcceuilController extends Controller implements View.OnClickListene
 
     @Override
     public void onClick(View view) {
+        //Toast.makeText(currentActivity, "test",Toast.LENGTH_LONG).show();
         switch (view.getId())
         {
             case R.id.go_contact:
                 System.out.println("b1 cliquer");
                 new ChangeView(currentActivity, to_go_page, page_precedente);
                 break;
-            case R.id.go_param:
+            case R.id.b_menu:
                 System.out.println("b2 cliquer");
                 new ChangeView(currentActivity, to_go_page, page_precedente);
                 break;

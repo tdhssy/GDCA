@@ -15,13 +15,13 @@ public class Acceuil extends View{
 
     public Acceuil(Activity activity) {
         super(activity);
-
         activity.setContentView(R.layout.accruil);
 
         b1 = (Button) activity.findViewById(R.id.go_contact);
         b1.setOnClickListener(new AcceuilController(activity, PageName.CONTACT, self));
 
-        menu = activity.findViewById(R.id.go_param);
-        menu.setOnClickListener(new AcceuilController(activity, PageName.PARAMETRE, self));
+        menu = (ImageButton) activity.findViewById(R.id.b_menu);
+        menu.setOnClickListener(new AcceuilController(activity, PageName.CONTACT, self));
     }
+
 }
