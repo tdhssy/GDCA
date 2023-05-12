@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">GDCA</string>
 
-    <!--Temporaire -->
-    <string name="b1">Button 1</string>
-    <string name="b2">Go Parametre</string>
-    <!--           -->
+    <string name="b_go_contact">Go Contact</string>
+    <string name="b_go_parametre">Go Parametre</string>
+
+    <string name="Bouton_retour">Retour</string>
 
 </resources>
