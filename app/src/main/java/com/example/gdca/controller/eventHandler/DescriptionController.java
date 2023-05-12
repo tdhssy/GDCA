@@ -10,8 +10,8 @@ public class DescriptionController extends Controller implements View.OnClickLis
     /**
      * Constructeur à utiliser pour le changement de page
      * @param activity
-     * @param to_go_page
-     * @param page_precedente
+     * @param to_go_page      Page désirée
+     * @param page_precedente Page actuelle
      */
     public DescriptionController(Activity activity, PageName to_go_page, PageName page_precedente)
     {

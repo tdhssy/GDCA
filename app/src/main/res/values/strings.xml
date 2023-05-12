@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">GDCA</string>
 
-    <string name="b_go_contact">Go Contact</string>
-    <string name="b_go_parametre">Go Parametre</string>
-
+    <!-- Bouton -->
+    <string name="Bouton_go_contact">Go Contact</string>
+    <string name="Bouton_go_parametre">Go Parametre</string>
     <string name="Bouton_retour">Retour</string>
+    <string name="Bouton_menu">Menu</string>
+    <!--        -->
 
 </resources>

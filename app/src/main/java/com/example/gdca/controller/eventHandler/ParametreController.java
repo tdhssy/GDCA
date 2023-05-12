@@ -13,8 +13,8 @@ public class ParametreController extends Controller implements View.OnClickListe
     /**
      * Constructeur à utiliser pour le changement de page
      * @param activity
-     * @param to_go_page
-     * @param page_precedente
+     * @param to_go_page      Page désirée
+     * @param page_precedente Page actuelle
      */
     public ParametreController(Activity activity, PageName to_go_page, PageName page_precedente)
     {

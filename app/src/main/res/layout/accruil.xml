@@ -7,32 +7,33 @@
         android:layout_height="match_parent"
         tools:context=".view.Acceuil">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="409dp"
+            android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:id="@+id/linearLayout2"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="50dp">
+        <Button android:id="@+id/go_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bouton_go_contact"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+        />
+    </LinearLayout>
+    <ImageButton
+            android:src="@drawable/icon_menubar"
+            android:layout_width="50dp"
+            android:layout_height="50dp" android:id="@+id/b_menu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="361dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            android:contentDescription="@string/Bouton_menu" android:scaleType="centerInside"/>
 
-    <Button android:id="@+id/go_contact"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/b_go_contact"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.284"
-            app:layout_constraintVertical_bias="0.653"/>
-
-    <Button android:id="@+id/go_param"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/b_go_parametre"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.758"
-            app:layout_constraintVertical_bias="0.653"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
