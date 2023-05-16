@@ -69,12 +69,137 @@
     <string name="FondDeJante">Fond de jante</string>
     <string name="Valve">Valve</string>
 
+    <!-- Roue -->
+        <!-- problème Rayon-->
+        <string name="Rayon_Cassure_ou_rupture">Cassure ou rupture</string>
+        <string name="Rayon_Cassure_ou_rupture_desc">Instabilité de la roue, risque de chute\nRemplacer le rayon cassé ou endommagé</string>
 
-    <!-- problème -->
-    <string name="CassureDeRayon">Cassure des rayons</string>
-    <string name="DesserageDesRayons">Desserage des rayons</string>
-    <string name="Rouille">Rouille</string>
+        <string name="Rayon_Détension">Détension</string>
+        <string name="Rayon_Détension_desc">Instabilité de la roue, risque de voilage\nRetendre les rayons ou faire ajuster la tension par un professionnel</string>
 
+        <string name="Rayon_Desserrage">Desserrage</string>
+        <string name="Rayon_Desserrage_desc">Instabilité de la roue, risque de voilage\nResserrer les rayons desserrés</string>
+
+        <string name="Rayon_Mauvais_alignement">Mauvais alignement</string>
+        <string name="Rayon_Mauvais_alignement_desc">Instabilité de la roue, risque de voilage\nRéajuster et aligner les rayons</string>
+
+        <!-- problème Moyeu-->
+        <string name="Moyeu_Jeu_excessif_dans_le_moyeu">Jeu excessif dans le moyeu</string>
+        <string name="Moyeu_Jeu_excessif_dans_le_moyeu_desc">Risque de perte de contrôle et d\'endommagement du moyeu\nAjuster les roulements du moyeu ou les remplacer si nécessaire</string>
+
+        <string name="Moyeu_Bruit_anormal_provenant_du_moyeu">Bruit anormal provenant du moyeu</string>
+        <string name="Moyeu_Bruit_anormal_provenant_du_moyeu_desc">Risque de défaillance du moyeu ou de perte de transmission de puissance\nVérifier et resserrer les écrous du moyeu, lubrifier les roulements si nécessaire</string>
+
+        <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur">Moyeu qui ne tourne pas en douceur</string>
+        <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur_desc">Risque de friction excessive, d\'usure prématurée et de mauvaise performance\nNettoyer et lubrifier les roulements du moyeu ou les remplacer si nécessaires</string>
+
+        <string name="Moyeu_cassé_ou_endommagé">Moyeu cassé ou endommagé</string>
+        <string name="Moyeu_cassé_ou_endommagé_desc">Risque de défaillance complète du moyeu et de perte de contrôle\nRemplacer le moyeu endommagé par un nouveau</string>
+
+        <string name="Moyeu_Mauvaise_rétention_des_roulements">Mauvaise rétention des roulements</string>
+        <string name="Moyeu_Mauvaise_rétention_des_roulements_desc">Risque de jeu excessif ou de blocage des roues\nRemplacer les roulements usés ou endommagés, ajuster la précontrainte des roulements si nécessaire</string>
+
+        <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants">Incompatibilité du moyeu avec d\'autres composants</string>
+        <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants_desc">Risque de dysfonctionnement de la transmission ou de mauvais réglages\nAssurer la compatibilité des composants du vélo, remplacer le moyeu si nécessaire</string>
+
+
+        <!-- problème Jante-->
+        <string name="Jante_Probleme_vibration_jante">Problème de vibrations des jantes</string>
+        <string name="Jante_Probleme_vibration_jante_desc">Risque de perte de contrôle ou d\'inconfort pendant la conduite\nVérifier l\'équilibrage des jantes, remplacer les rayons endommagés ou desserrés</string>
+
+        <string name="Jante_Deformation_jante">Déformation de la jante</string>
+        <string name="Jante_Deformation_jante_desc">Risque de perturbation de la rotation de la roue et de mauvaise tenue de la pression des pneus\nRemplacer la jante déformée ou endommagée</string>
+
+        <string name="Jante_Mauvais_alignement_jante">Mauvais alignement de la jante</string>
+        <string name="Jante_Mauvais_alignement_jante_desc">Risque de frottement des freins, de problèmes de changement de vitesses ou de déséquilibre\nAjuster l'alignement de la jante, retendre ou remplacer les rayons si nécessaire</string>
+
+        <string name="Jante_Usure_surface_freinage">Usure excessive de la surface de freinage</string>
+        <string name="Jante_Usure_surface_freinage_desc">Risque de diminution de l\'efficacité du freinage et d\'augmentation de la distance d\'arrêt\nRemplacer la jante usée, vérifier et ajuster régulièrement les patins de frein</string>
+
+        <!-- problème Pneu-->
+        <string name="Pneu_Usure_de_la_bande_de_roulement">Usure de la bande de roulement</string>
+        <string name="Pneu_Usure_de_la_bande_de_roulement_desc">Perte d\'adhérence, risque accru de glissade\nRemplacer le pneu</string>
+
+        <string name="Pneu_Crevaison">Crevaison</string>
+        <string name="Pneu_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer le pneu</string>
+
+        <string name="Pneu_Surgonflage">Sur-gonflage</string>
+        <string name="Pneu_Surgonflage_desc">Perte d\'adhérence, usure prématurée du pneu\nDégonfler légèrement le pneu</string>
+
+        <string name="Pneu_Sousgonflage">Sous-gonflage</string>
+        <string name="Pneu_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de crevaison\nGonfler le pneu à la pression recommandée</string>
+
+        <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu">Déchirure ou fissure sur le flanc du pneu</string>
+        <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu_desc">Risque d\'éclatement, perte de contrôle\nRemplacer le pneu</string>
+
+        <!-- problème Chambre à aire-->
+        <string name="Chambre_a_air_Crevaison">Crevaison</string>
+        <string name="Chambre_a_air_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer la chambre à air</string>
+
+        <string name="Chambre_a_air_Pincement">Pincement</string>
+        <string name="Chambre_a_air_Pincement_desc">Crevaison, perte de contrôle\nVérifier et ajuster l\'installation de la chambre à air</string>
+
+        <string name="Chambre_a_air_Valve_défectueuse">Valve défectueuse</string>
+        <string name="Chambre_a_air_Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve de la chambre à air</string>
+
+        <string name="Chambre_a_air_Déchirure_ou_perforation">Déchirure ou perforation</string>
+        <string name="Chambre_a_air_Déchirure_ou_perforation_desc">Crevaison, perte de contrôle\nRéparer ou remplacer la chambre à air</string>
+
+        <string name="Chambre_a_air_Sousgonflage">Sous-gonflage</string>
+        <string name="Chambre_a_air_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de pincement\nGonfler la chambre à air à la pression recommandée</string>
+
+        <!-- problème Blocage rapide-->
+        <string name="Blocage_Rapide_Mauvaise_installation">Mauvaise installation</string>
+        <string name="Blocage_Rapide_Mauvaise_installation_desc">Désengagement inattendu, perte de contrôle\nVérifier et ajuster correctement le blocage rapide</string>
+
+        <string name="Blocage_Rapide_Usure_ou_endommagement">Usure ou endommagement</string>
+        <string name="Blocage_Rapide_Usure_ou_endommagement_desc">Désengagement inattendu, perte de contrôle\nRemplacer le blocage rapide</string>
+
+        <string name="Blocage_Rapide_Blocage_insuffisant">Blocage insuffisant</string>
+        <string name="Blocage_Rapide_Blocage_insuffisant_desc">Mauvaise tenue de la roue, risque de désengagement\nSerrer correctement le blocage rapide</string>
+
+        <!-- problème Fond de jante-->
+        <string name="Fond_De_Jante_Usure_ou_détérioration">Usure ou détérioration</string>
+        <string name="Fond_De_Jante_Usure_ou_détérioration_desc">Mauvaise tenue du pneu, risque de crevaison\nRemplacer le fond de jante</string>
+
+        <string name="Fond_De_Jante_Déformation">Déformation</string>
+        <string name="Fond_De_Jante_Déformation_desc">Mauvaise tenue du pneu, risque de crevaison\nRéparer ou remplacer le fond de jante</string>
+
+        <string name="Fond_De_Jante_Mauvaise_installation">Mauvaise installation</string>
+        <string name="Fond_De_Jante_Mauvaise_installation_desc">Mauvaise tenue du pneu, risque de crevaison\nInstaller correctement le fond de jante</string>
+
+        <!-- problème Valve-->
+        <string name="Valve_Fuite_dair">Fuite d\'air</string>
+        <string name="Valve_Fuite_dair_desc">Perte de pression, difficulté à gonfler le pneu\nRemplacer la valve ou utiliser un adaptateur</string>
+
+        <string name="Valve_Obstruction">Obstruction</string>
+        <string name="Valve_Obstruction_desc">Difficulté à gonfler le pneu, perte de pression\nNettoyer ou remplacer la valve</string>
+
+        <string name="Valve_défectueuse">Valve défectueuse</string>
+        <string name="Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve</string>
+
+        <string name="Valve_mal_positionnée">Valve mal positionnée</string>
+        <string name="Valve_mal_positionnée_desc">Perte de pression, difficulté à gonfler le pneu\nRéajuster la position de la valve</string>
+
+
+    <!-- problème plateau-->
+    <string name="Plateau_Déraillement_de_la_chaîne">Déraillement de la chaîne</string>
+    <string name="Plateau_Déraillement_de_la_chaîne_desc">Risque de chute ou de blocage de la chaîne\nVérifier l\'alignement des vitesses et ajuster le câble de changement de vitesses</string>
+
+    <string name="Plateau_usé_ou_endommagé">Plateau usé ou endommagé</string>
+    <string name="Plateau_usé_ou_endommagé_desc">Risque de perte de transmission de puissance ou de rupture de la chaîne\nRemplacer le plateau ou les plateaux endommagés</string>
+
+    <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau">Bruit de craquement au niveau du plateau</string>
+    <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau_desc">Risque de panne ou de casse de la chaîne\nNettoyer et lubrifier le plateau ou remplacer le plateau si nécessaire</string>
+
+    <string name="Plateau_mal_ajusté">Plateau mal ajusté</string>
+    <string name="Plateau_mal_ajusté_desc">Risque de saut de chaîne ou de déraillement\nAjuster le plateau en vérifiant les boulons et les écrous</string>
+
+    <string name="Plateau_Chaîne_sautant_sur_le_plateau">Chaîne sautant sur le plateau</string>
+    <string name="Plateau_Chaîne_sautant_sur_le_plateau_desc">Risque de chute ou de perte de transmission de puissance\nVérifier l\'usure de la chaîne et remplacer si nécessaire, ajuster l'alignement des vitesses</string>
+
+    <string name="Plateau_tordu_ou_mal_aligné">Plateau tordu ou mal aligné</string>
+    <string name="Plateau_tordu_ou_mal_aligné_desc">Risque de saut de chaîne ou de déraillement\nAjuster ou remplacer le plateau, vérifier l'alignement des vitesses</string>
 
     <!--Long Texte -->
     <string name="TexteContact">Si aucun de vos problèmes n\'a été trouvé veuillez vous référer à un professionel</string>
