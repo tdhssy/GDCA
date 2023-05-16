@@ -20,12 +20,21 @@ public class AcceuilController extends Controller implements View.OnClickListene
         //Toast.makeText(currentActivity, "test",Toast.LENGTH_LONG).show();
         switch (view.getId())
         {
-            case R.id.go_contact:
-                controller_view.swap(currentActivity, PageName.CONTACT, PageName.ACCEUIL);
-                break;
             case R.id.b_menu:
-                System.out.println("b2 cliquer");
                 controller_view.swap(currentActivity, PageName.PARAMETRE, PageName.ACCEUIL);
+                break;
+            case R.id.b_aide:
+                controller_view.swap(currentActivity, PageName.AIDE, PageName.ACCEUIL);
+                break;
+            case R.id.b_pedalier:
+            case R.id.b_suspension:
+            case R.id.b_cadre:
+            case R.id.b_frein:
+            case R.id.b_roue:
+            case R.id.b_guidon:
+            case R.id.b_selle:
+                //TODO
+                Toast.makeText(currentActivity, "a modif",Toast.LENGTH_LONG).show();
                 break;
         }
     }

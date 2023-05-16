@@ -10,8 +10,17 @@ import com.example.gdca.controller.eventHandler.AcceuilController;
 
 public class Acceuil extends View{
     private final OnClickListener eventHandler;
+
     private ImageButton menu;
-    private Button b1;
+    private ImageButton aide;
+
+    private Button pedalier;
+    private Button suspension;
+    private Button cadre;
+    private Button frein;
+    private Button roue;
+    private Button guidon;
+    private Button selle;
 
     public Acceuil(ChangeView controller, Activity activity) {
         super(activity);
@@ -19,11 +28,32 @@ public class Acceuil extends View{
 
         activity.setContentView(R.layout.accruil);
 
-        b1 = (Button) activity.findViewById(R.id.go_contact);
-        b1.setOnClickListener(eventHandler);
-
         menu = (ImageButton) activity.findViewById(R.id.b_menu);
         menu.setOnClickListener(eventHandler);
+
+        aide = (ImageButton) activity.findViewById(R.id.b_aide);
+        aide.setOnClickListener(eventHandler);
+
+        pedalier = (Button) activity.findViewById(R.id.b_pedalier);
+        pedalier.setOnClickListener(eventHandler);
+
+        suspension = (Button) activity.findViewById(R.id.b_suspension);
+        suspension.setOnClickListener(eventHandler);
+
+        cadre = (Button) activity.findViewById(R.id.b_cadre);
+        cadre.setOnClickListener(eventHandler);
+
+        frein = (Button) activity.findViewById(R.id.b_frein);
+        frein.setOnClickListener(eventHandler);
+
+        roue = (Button) activity.findViewById(R.id.b_roue);
+        roue.setOnClickListener(eventHandler);
+
+        guidon = (Button) activity.findViewById(R.id.b_guidon);
+        guidon.setOnClickListener(eventHandler);
+
+        selle = (Button) activity.findViewById(R.id.b_selle);
+        selle.setOnClickListener(eventHandler);
     }
 
 }
