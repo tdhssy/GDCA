@@ -5,7 +5,24 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".view.Acceuil">
+        tools:context=".view.Acceuil" android:id="@+id/velo">
+
+    <ImageButton
+            android:src="@drawable/icon_menubar"
+            android:layout_width="50dp"
+            android:layout_height="50dp" android:id="@+id/b_menu"
+            android:scaleType="fitCenter" android:contentDescription="@string/Bouton_menu"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toStartOf="@+id/b_aide"/>
+
+    <ImageButton
+            android:src="@drawable/what_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" android:id="@+id/b_aide"
+            android:scaleType="fitCenter" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/b_menu" android:layout_marginStart="312dp"
+            android:contentDescription="@string/Aide"/>
 
     <LinearLayout
             android:orientation="vertical"
@@ -16,24 +33,60 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/linearLayout2"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="50dp">
-        <Button android:id="@+id/go_contact"
+
+        <ImageView
+                android:src="@drawable/bike_fullpicture"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Bouton_go_contact"
-        />
+                android:layout_height="300dp" android:id="@+id/imageView"
+                android:scaleType="fitCenter"/>
         <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-        />
+                android:text="@string/Partie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/partie" android:textSize="34sp"
+                android:textAlignment="center"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="204dp"
+                    android:layout_height="match_parent">
+                <Button
+                        android:text="@string/Pedalier"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_pedalier"/>
+                <Button
+                        android:text="@string/Suspension"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_suspension"/>
+                <Button
+                        android:text="@string/Cadre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_cadre"/>
+                <Button
+                        android:text="@string/Frein"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_frein"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="204dp"
+                    android:layout_height="match_parent">
+                <Button
+                        android:text="@string/Roue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_roue"/>
+                <Button
+                        android:text="@string/Guidon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_guidon"/>
+                <Button
+                        android:text="@string/Selle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/b_selle"/>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
-    <ImageButton
-            android:src="@drawable/icon_menubar"
-            android:layout_width="50dp"
-            android:layout_height="50dp" android:id="@+id/b_menu"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="361dp"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-            android:contentDescription="@string/Bouton_menu" android:scaleType="centerInside"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

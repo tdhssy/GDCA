@@ -5,23 +5,55 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import com.example.gdca.R;
-import com.example.gdca.controller.PageName;
+import com.example.gdca.controller.ChangeView;
 import com.example.gdca.controller.eventHandler.AcceuilController;
 
 public class Acceuil extends View{
-    private final PageName self = PageName.ACCEUIL;
-    private ImageButton menu;
-    private Button b1;
+    private final OnClickListener eventHandler;
 
-    public Acceuil(Activity activity) {
+    private ImageButton menu;
+    private ImageButton aide;
+
+    private Button pedalier;
+    private Button suspension;
+    private Button cadre;
+    private Button frein;
+    private Button roue;
+    private Button guidon;
+    private Button selle;
+
+    public Acceuil(ChangeView controller, Activity activity) {
         super(activity);
+        eventHandler = new AcceuilController(controller, activity);
 
         activity.setContentView(R.layout.accruil);
 
-        b1 = (Button) activity.findViewById(R.id.go_contact);
-        b1.setOnClickListener(new AcceuilController(activity, PageName.CONTACT, self));
+        menu = (ImageButton) activity.findViewById(R.id.b_menu);
+        menu.setOnClickListener(eventHandler);
 
-        menu = activity.findViewById(R.id.go_param);
-        menu.setOnClickListener(new AcceuilController(activity, PageName.PARAMETRE, self));
+        aide = (ImageButton) activity.findViewById(R.id.b_aide);
+        aide.setOnClickListener(eventHandler);
+
+        pedalier = (Button) activity.findViewById(R.id.b_pedalier);
+        pedalier.setOnClickListener(eventHandler);
+
+        suspension = (Button) activity.findViewById(R.id.b_suspension);
+        suspension.setOnClickListener(eventHandler);
+
+        cadre = (Button) activity.findViewById(R.id.b_cadre);
+        cadre.setOnClickListener(eventHandler);
+
+        frein = (Button) activity.findViewById(R.id.b_frein);
+        frein.setOnClickListener(eventHandler);
+
+        roue = (Button) activity.findViewById(R.id.b_roue);
+        roue.setOnClickListener(eventHandler);
+
+        guidon = (Button) activity.findViewById(R.id.b_guidon);
+        guidon.setOnClickListener(eventHandler);
+
+        selle = (Button) activity.findViewById(R.id.b_selle);
+        selle.setOnClickListener(eventHandler);
     }
+
 }

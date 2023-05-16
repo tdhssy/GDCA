@@ -1,4 +1,4 @@
-package com.example.gdca.controller;
+package com.example.gdca.model;
 
 /**
  * Contient le nom de toute les pages

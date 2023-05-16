@@ -4,26 +4,12 @@ import android.app.Activity;
 import android.view.View;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
-import com.example.gdca.controller.PageName;
+import com.example.gdca.model.PageName;
 
 public class ContactController extends Controller implements View.OnClickListener {
-    /**
-     * Constructeur à utiliser pour le changement de page
-     * @param activity
-     * @param to_go_page      Page désirée
-     * @param page_precedente Page actuelle
-     */
-    public ContactController(Activity activity, PageName to_go_page, PageName page_precedente)
-    {
-        super(activity, to_go_page, page_precedente);
-    }
 
-    /**
-     * Constructeur à utiliser pour les actions des boutons lambda
-     */
-    public ContactController()
-    {
-        super(null,null,null);
+    public ContactController(ChangeView controller, Activity activity) {
+        super(controller, activity);
     }
 
     @Override
@@ -31,8 +17,10 @@ public class ContactController extends Controller implements View.OnClickListene
         switch (view.getId())
         {
             case R.id.b_retour:
+                controller_view.retourArriere(currentActivity);
+                break;
             case R.id.go_param:
-                new ChangeView(currentActivity, to_go_page, page_precedente);
+                controller_view.swap(currentActivity, PageName.PARAMETRE, PageName.CONTACT);
                 break;
         }
     }

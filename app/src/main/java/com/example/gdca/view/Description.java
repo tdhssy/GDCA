@@ -4,20 +4,19 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import com.example.gdca.R;
-import com.example.gdca.controller.PageName;
+import com.example.gdca.controller.ChangeView;
 import com.example.gdca.controller.eventHandler.DescriptionController;
 
-public class Description extends View {
-    private final PageName self = PageName.DESCRIPTION;
-    private final PageName parent;
+public class Description extends View{
+    private final View.OnClickListener eventHandler;
     private Button retour;
-    public Description(Activity activity, PageName parent) {
+    public Description(ChangeView controller, Activity activity) {
         super(activity);
-        this.parent = parent;
+        eventHandler = new DescriptionController(controller, activity);
 
         activity.setContentView(R.layout.description);
 
         retour = (Button) activity.findViewById(R.id.b_retour);
-        retour.setOnClickListener(new DescriptionController(activity, parent, self));
+        retour.setOnClickListener(eventHandler);
     }
 }

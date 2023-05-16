@@ -1,17 +1,16 @@
 package com.example.gdca.controller.eventHandler;
 
 import android.app.Activity;
-import com.example.gdca.controller.PageName;
+import com.example.gdca.controller.ChangeView;
+import com.example.gdca.model.PageName;
 
 public class Controller {
+    protected final ChangeView controller_view;
     protected final Activity currentActivity;
-    protected final PageName page_precedente;
-    protected final PageName to_go_page;
-    public Controller(Activity activity, PageName to_go_page, PageName page_precedente)
+    public Controller(ChangeView controller, Activity activity)
     {
+        controller_view = controller;
         currentActivity = activity;
-        this.to_go_page = to_go_page;
-        this.page_precedente = page_precedente;
     }
 
 }

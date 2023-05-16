@@ -4,29 +4,15 @@ import android.app.Activity;
 import android.view.View;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
-import com.example.gdca.controller.PageName;
+import com.example.gdca.model.PageName;
 
 /**
  * Controller de Parametre
  */
 public class ParametreController extends Controller implements View.OnClickListener {
-    /**
-     * Constructeur à utiliser pour le changement de page
-     * @param activity
-     * @param to_go_page      Page désirée
-     * @param page_precedente Page actuelle
-     */
-    public ParametreController(Activity activity, PageName to_go_page, PageName page_precedente)
-    {
-        super(activity, to_go_page, page_precedente);
-    }
 
-    /**
-     * Constructeur à utiliser pour les actions des boutons lambda
-     */
-    public ParametreController()
-    {
-        super(null,null,null);
+    public ParametreController(ChangeView controller, Activity activity) {
+        super(controller, activity);
     }
 
     @Override
@@ -34,7 +20,7 @@ public class ParametreController extends Controller implements View.OnClickListe
         switch (view.getId())
         {
             case R.id.b_retour:
-                new ChangeView(currentActivity, to_go_page, page_precedente);
+                controller_view.retourArriere(currentActivity);
                 break;
         }
     }
