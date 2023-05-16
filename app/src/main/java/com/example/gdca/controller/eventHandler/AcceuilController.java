@@ -35,6 +35,7 @@ public class AcceuilController extends Controller implements View.OnClickListene
             case R.id.b_selle:
                 //TODO
                 Toast.makeText(currentActivity, "a modif",Toast.LENGTH_LONG).show();
+                controller_view.swap(currentActivity, PageName.DESCRIPTION, PageName.ACCEUIL);
                 break;
         }
     }

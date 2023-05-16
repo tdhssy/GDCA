@@ -35,9 +35,10 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="50dp">
 
         <ImageView
-                android:src="@drawable/house_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/imageView"/>
+                android:src="@drawable/bike_fullpicture"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" android:id="@+id/imageView"
+                android:scaleType="fitCenter"/>
         <TextView
                 android:text="@string/Partie"
                 android:layout_width="match_parent"
