@@ -68,7 +68,7 @@
             <string name="Tige_Cassure_ou_fissure_de_la_tige_de_selle_desc">Selle instable, risque de chute\nRemplacer la tige de selle endommagée, choisir une tige de selle de haute qualité et adaptée au cadre</string>
 
             <string name="Tige_Incompatibilité_de_taille_entre_la_tige_de_selle_et_le_cadre">Incompatibilité de taille entre la tige de selle et le cadre</string>
-            <string name="Tige_Incompatibilité_de_taille_entre_la_tige_de_selle_et_le_cadre_desc">Mauvaise fixation de la selle, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l'achat, utiliser des adaptateurs si nécessaire</string>
+            <string name="Tige_Incompatibilité_de_taille_entre_la_tige_de_selle_et_le_cadre_desc">Mauvaise fixation de la selle, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l\'achat, utiliser des adaptateurs si nécessaire</string>
 
 
     <!-- Guidon -->
@@ -81,7 +81,7 @@
             <string name="Potence_Cassure_ou_fissure_de_la_potence_desc">Perte de contrôle, risque de chute\nRemplacer la potence endommagée, choisir une potence de haute qualité et adaptée au diamètre du pivot de fourche</string>
 
             <string name="Potence_Incompatibilité_de_taille_entre_la_potence_et_le_pivot_de_fourche">Incompatibilité de taille entre la potence et le pivot de fourche</string>
-            <string name="Potence_Incompatibilité_de_taille_entre_la_potence_et_le_pivot_de_fourche_desc">Mauvaise fixation du guidon, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l'achat, utiliser des adaptateurs si nécessaire</string>
+            <string name="Potence_Incompatibilité_de_taille_entre_la_potence_et_le_pivot_de_fourche_desc">Mauvaise fixation du guidon, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l\'achat, utiliser des adaptateurs si nécessaire</string>
 
         <string name="Cintre">Cintre</string>
             <string name="Cintre_mal_positionné_ou_mal_fixé">Cintre mal positionné ou mal fixé</string>
@@ -91,7 +91,7 @@
             <string name="Cintre_trop_étroit_ou_trop_large_desc">Manque de contrôle, inconfort, douleurs au niveau des épaules et du dos\nChoisir un cintre adapté à la morphologie et aux préférences du cycliste, ajuster la largeur si nécessaire</string>
 
             <string name="Cintre_endommagé_ou_fissuré">Cintre endommagé ou fissuré</string>
-            <string name="Cintre_endommagé_ou_fissuré_desc">Perte de contrôle, risque de rupture, risque de chute\nRemplacer le cintre endommagé par un neuf de qualité, inspecter régulièrement pour détecter les signes d'usure ou de dommage</string>
+            <string name="Cintre_endommagé_ou_fissuré_desc">Perte de contrôle, risque de rupture, risque de chute\nRemplacer le cintre endommagé par un neuf de qualité, inspecter régulièrement pour détecter les signes d\'usure ou de dommage</string>
 
         <string name="ManetteDeVitesse">Manette de vitesse</string>
             <string name="Manette_de_vitesse_bloquée_ou_coincée">Manette de vitesse bloquée ou coincée</string>
@@ -105,7 +105,7 @@
 
         <string name="Poignees">Poignées</string>
             <string name="Poignées_usées_ou_dégradées">Poignées usées ou dégradées</string>
-            <string name="Poignées_usées_ou_dégradées_desc">Perte d\'adhérence, inconfort, risque de glissement des mains\nRemplacer les poignées usées par des nouvelles, choisir des poignées adaptées à l'usage</string>
+            <string name="Poignées_usées_ou_dégradées_desc">Perte d\'adhérence, inconfort, risque de glissement des mains\nRemplacer les poignées usées par des nouvelles, choisir des poignées adaptées à l\'usage</string>
 
             <string name="Poignées_mal_fixées">Poignées mal fixées</string>
             <string name="Poignées_mal_fixées_desc">Instabilité, risque de perte de contrôle, inconfort\nVérifier et resserrer les fixations des poignées, utiliser un adhésif de qualité pour une meilleure adhérence</string>
@@ -128,7 +128,7 @@
     <string name="Frein">Frein</string>
         <string name="LevierDeFrein">Levier de frein</string>
             <string name="Levier_de_frein_mal_ajusté_ou_desserré">Levier de frein mal ajusté ou desserré</string>
-            <string name="Levier_de_frein_mal_ajusté_ou_desserré_desc">Mauvaise réactivité des freins, perte de puissance de freinage\nVérifier et ajuster le positionnement et le serrage du levier de frein, faire l'entretien régulier des câbles et des patins de frein</string>
+            <string name="Levier_de_frein_mal_ajusté_ou_desserré_desc">Mauvaise réactivité des freins, perte de puissance de freinage\nVérifier et ajuster le positionnement et le serrage du levier de frein, faire l\'entretien régulier des câbles et des patins de frein</string>
 
             <string name="Levier_de_frein_endommagé_ou_cassé">Levier de frein endommagé ou cassé</string>
             <string name="Levier_de_frein_endommagé_ou_cassé_desc">Perte totale de freinage, risque d\'accident\nRemplacer le levier de frein endommagé par un neuf de qualité, vérifier régulièrement son état</string>
@@ -151,14 +151,14 @@
             <string name="Étrier_de_frein_mal_aligné_ou_désaxé_desc">Mauvaise réactivité des freins, déséquilibre du freinage\nRéaligner et recentrer l\'étrier de frein, vérifier le positionnement des patins de frein</string>
 
             <string name="Étrier_de_frein_grippé_ou_collant">Étrier de frein grippé ou collant</string>
-            <string name="Étrier_de_frein_grippé_ou_collant_desc">Freinage inefficace, surchauffe des freins\nNettoyer et lubrifier l\'étrier de frein, vérifier l'état des ressorts et des pivots</string>
+            <string name="Étrier_de_frein_grippé_ou_collant_desc">Freinage inefficace, surchauffe des freins\nNettoyer et lubrifier l\'étrier de frein, vérifier l\'état des ressorts et des pivots</string>
 
             <string name="Étrier_de_frein_endommagé_ou_fissuré">Étrier de frein endommagé ou fissuré</string>
             <string name="Étrier_de_frein_endommagé_ou_fissuré_desc">Risque de rupture, perte complète de freinage\nRemplacer l\'étrier de frein endommagé par un neuf, effectuer une inspection régulière</string>
 
         <string name="PatinsDeFrein">Patins de frein</string>
             <string name="Patins_de_frein_usés_ou_dégradés">Patins de frein usés ou dégradés</string>
-            <string name="Patins_de_frein_usés_ou_dégradés_desc">Freinage inefficace, risque de glissade\nRemplacer les patins de frein usés par des neufs, vérifier régulièrement leur état d'usure</string>
+            <string name="Patins_de_frein_usés_ou_dégradés_desc">Freinage inefficace, risque de glissade\nRemplacer les patins de frein usés par des neufs, vérifier régulièrement leur état d\'usure</string>
 
             <string name="Patins_de_frein_mal_positionnés">Patins de frein mal positionnés</string>
             <string name="Patins_de_frein_mal_positionnés_desc">Mauvaise réactivité des freins, déséquilibre du freinage\nAjuster la position des patins de frein pour qu\'ils soient correctement alignés avec la jante, vérifier leur centrage</string>
@@ -254,7 +254,7 @@
     <string name="Suspension">Suspension</string>
         <string name="Fourche">Fourche</string>
             <string name="Fourche_Fuite_dhuile">Fuite d\'huile</string>
-            <string name="Fourche_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d'étanchéité</string>
+            <string name="Fourche_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d\'étanchéité</string>
 
             <string name="Fourche_Blocage_ou_verrouillage">Blocage ou verrouillage</string>
             <string name="Fourche_Blocage_ou_verrouillage_desc">Perte de contrôle, risque de chute\nDébloquer ou réparer les mécanismes de verrouillage</string>
@@ -264,7 +264,7 @@
 
         <string name="Amortisseur">Amortisseur</string>
             <string name="Amortisseur_Fuite_dhuile">Fuite d\'huile</string>
-            <string name="Amortisseur_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d'étanchéité</string>
+            <string name="Amortisseur_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d\'étanchéité</string>
 
             <string name="Amortisseur_Blocage_ou_verrouillage">Blocage ou verrouillage</string>
             <string name="Amortisseur_Blocage_ou_verrouillage_desc">Perte de contrôle, risque de chute\nDébloquer ou réparer les mécanismes de verrouillage</string>
@@ -284,7 +284,7 @@
 
         <string name="JointsDetancheite">Joints D\'étanchéité</string>
             <string name="JointsDetancheite_Fuites_dhuile">Fuites d\'huile</string>
-            <string name="JointsDetancheite_Fuites_dhuile_desc">Perte de performance, manque d\'amortissement\nRemplacer les joints d'étanchéité défectueux</string>
+            <string name="JointsDetancheite_Fuites_dhuile_desc">Perte de performance, manque d\'amortissement\nRemplacer les joints d\'étanchéité défectueux</string>
 
             <string name="JointsDetancheite_Usure_prématurée">Usure prématurée</string>
             <string name="JointsDetancheite_Usure_prématurée_desc">Mauvaise étanchéité, perte d\'amortissement\nVérifier et entretenir régulièrement les joints, les remplacer si nécessaire</string>
@@ -310,10 +310,10 @@
             <string name="Plateau_mal_ajusté_desc">Risque de saut de chaîne ou de déraillement\nAjuster le plateau en vérifiant les boulons et les écrous</string>
 
             <string name="Plateau_Chaîne_sautant_sur_le_plateau">Chaîne sautant sur le plateau</string>
-            <string name="Plateau_Chaîne_sautant_sur_le_plateau_desc">Risque de chute ou de perte de transmission de puissance\nVérifier l\'usure de la chaîne et remplacer si nécessaire, ajuster l'alignement des vitesses</string>
+            <string name="Plateau_Chaîne_sautant_sur_le_plateau_desc">Risque de chute ou de perte de transmission de puissance\nVérifier l\'usure de la chaîne et remplacer si nécessaire, ajuster l\'alignement des vitesses</string>
 
             <string name="Plateau_tordu_ou_mal_aligné">Plateau tordu ou mal aligné</string>
-            <string name="Plateau_tordu_ou_mal_aligné_desc">Risque de saut de chaîne ou de déraillement\nAjuster ou remplacer le plateau, vérifier l'alignement des vitesses</string>
+            <string name="Plateau_tordu_ou_mal_aligné_desc">Risque de saut de chaîne ou de déraillement\nAjuster ou remplacer le plateau, vérifier l\'alignement des vitesses</string>
 
 
         <string name="Manivelles">Manivelles</string>
@@ -395,7 +395,7 @@
             <string name="Jante_Deformation_jante_desc">Risque de perturbation de la rotation de la roue et de mauvaise tenue de la pression des pneus\nRemplacer la jante déformée ou endommagée</string>
 
             <string name="Jante_Mauvais_alignement_jante">Mauvais alignement de la jante</string>
-            <string name="Jante_Mauvais_alignement_jante_desc">Risque de frottement des freins, de problèmes de changement de vitesses ou de déséquilibre\nAjuster l'alignement de la jante, retendre ou remplacer les rayons si nécessaire</string>
+            <string name="Jante_Mauvais_alignement_jante_desc">Risque de frottement des freins, de problèmes de changement de vitesses ou de déséquilibre\nAjuster l\'alignement de la jante, retendre ou remplacer les rayons si nécessaire</string>
 
             <string name="Jante_Usure_surface_freinage">Usure excessive de la surface de freinage</string>
             <string name="Jante_Usure_surface_freinage_desc">Risque de diminution de l\'efficacité du freinage et d\'augmentation de la distance d\'arrêt\nRemplacer la jante usée, vérifier et ajuster régulièrement les patins de frein</string>
