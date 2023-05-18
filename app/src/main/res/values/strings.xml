@@ -16,192 +16,468 @@
     <!-- Texte -->
     <string name="Aide">Aide</string>
     <string name="Partie">Parties</string>
-    <string name="Pedalier">Pédalier</string>
-    <string name="Suspension">Suspension</string>
-    <string name="Cadre">Cadre</string>
-    <string name="Frein">Frein</string>
-    <string name="Roue">Roue</string>
-    <string name="Guidon">Guidon</string>
+    <string name="TexteContact">Si aucun de vos problèmes n\'a été trouvé veuillez vous référer à un professionel</string>
+
+    <!-- Selle -->
     <string name="Selle">Selle</string>
+        <string name="Coque">Coque</string>
+            <string name="Coque_Fissures_ou_domages_à_la_coque_de_la_selle">Fissures ou dommages à la coque de la selle</string>
+            <string name="Coque_Fissures_ou_domages_à_la_coque_de_la_selle_desc">Affaiblissement de la structure, risque de rupture\nExaminer la coque de la selle pour détecter les fissures et remplacer la selle si nécessaire</string>
 
-    <string name="Plateaux">Plateaux</string>
-    <string name="Manivelles">Manivelles</string>
-    <string name="Axe">Axe</string>
-    <string name="Pedales">Pédales</string>
+            <string name="Coque_Confort_inadéquat_de_la_selle">Confort inadéquat de la selle</string>
+            <string name="Coque_Confort_inadéquat_de_la_selle_desc">Douleur et inconfort pendant la conduite\nChoisir une selle adaptée à sa morphologie, ajuster la position de la selle</string>
 
-    <string name="Fourche">Fourche</string>
-    <string name="Amortisseur">Amortisseur</string>
-    <string name="Ressorts">Ressorts</string>
-    <string name="JointsDetancheite">Joints D\'étanchéité</string>
+            <string name="Coque_Instabilité_de_la_selle">Instabilité de la selle</string>
+            <string name="Coque_Instabilité_de_la_selle_desc">Risque de glissement ou de déséquilibre pendant la conduite\nVérifier et ajuster le serrage de la selle, utiliser des dispositifs de serrage supplémentaires si nécessaire</string>
 
-    <string name="Tubes">Tubes</string>
-    <string name="Jonctions">Jonctions</string>
-    <string name="Pattes">Pattes</string>
-    <string name="DouilleDeDirection">Douille De Direction</string>
-    <string name="DouilleDeBoitierDePedalier">Douille De Boitier De Pédalier</string>
-    <string name="TigeDeSelle">Tige De Selle</string>
+        <string name="Rembourrage">Rembourrage</string>
+            <string name="Rembourrage_Affaissement_ou_dégradation_du_rembourrage">Affaissement ou dégradation du rembourrage</string>
+            <string name="Rembourrage_Affaissement_ou_dégradation_du_rembourrage_desc">Confort réduit, pression excessive sur les points de contact\nRemplacer le rembourrage usé ou endommagé, opter pour un rembourrage de meilleure qualité</string>
 
-    <string name="LevierDeFrein">Levier de frein</string>
-    <string name="CableDeFrein">Cable de frein</string>
-    <string name="EtrierDeFrein">Etrier de frein</string>
-    <string name="PatinsDeFrein">Patins de frein</string>
-    <string name="DisquesDeFrein">Disque de frein</string>
-    <string name="PlaquettesDeFrein">Plaquettes de frein</string>
+            <string name="Rembourrage_Irritation_de_la_peau_ou_éruption_cutanée">Irritation de la peau ou éruption cutanée</string>
+            <string name="Rembourrage_Irritation_de_la_peau_ou_éruption_cutanée_desc">Frottement excessif, transpiration accumulée\nUtiliser un revêtement de selle anti-transpiration, porter des shorts de cyclisme avec un rembourrage intégré</string>
 
-    <string name="Coque">Coque</string>
-    <string name="Rembourrage">Rembourrage</string>
-    <string name="Revetement">Revêtement</string>
-    <string name="Rails">Rails</string>
-    <string name="Tige">Tige</string>
+            <string name="Rembourrage_Absence_de_rembourrage_adéquat">Absence de rembourrage adéquat</string>
+            <string name="Rembourrage_Absence_de_rembourrage_adéquat_desc">Inconfort pendant la conduite, douleurs au niveau des fessiers\nChoisir une selle avec un rembourrage adapté à son type de conduite, utiliser des coussinets de selle supplémentaires si nécessaire</string>
 
-    <string name="Potence">Potence</string>
-    <string name="Cintre">Cintre</string>
-    <string name="ManetteDeVitesse">Manette de vitesse</string>
-    <string name="Poignees">Poignées</string>
-    <string name="Barends">Bar-ends</string>
+        <string name="Revetement">Revêtement</string>
+            <string name="Revetement_Déchirure_ou_usure_du_revêtement">Déchirure ou usure du revêtement</string>
+            <string name="Revetement_Déchirure_ou_usure_du_revêtement_desc">Confort réduit, exposition du rembourrage, risque de blessure\nRemplacer le revêtement endommagé, choisir un matériau résistant et durable</string>
 
-    <string name="Moyeu">Moyeu</string>
-    <string name="Rayon">Rayon</string>
-    <string name="Jante">Jante</string>
-    <string name="Pneu">Pneu</string>
-    <string name="ChambreAAire">Chambre a aire</string>
-    <string name="BlocageRapide">Blocage rapide</string>
-    <string name="FondDeJante">Fond de jante</string>
-    <string name="Valve">Valve</string>
+            <string name="Revetement_Glissement_du_revêtement">Glissement du revêtement</string>
+            <string name="Revetement_Glissement_du_revêtement_desc">Instabilité pendant la conduite, perte de contrôle\nUtiliser un revêtement antidérapant, vérifier l\'ajustement de la selle, ajuster la tension du revêtement si possible</string>
+
+            <string name="Revetement_Irritation_de_la_peau_ou_éruption_cutanée">Irritation de la peau ou éruption cutanée</string>
+            <string name="Revetement_Irritation_de_la_peau_ou_éruption_cutanée_desc">Frottement excessif, transpiration accumulée\nUtiliser un revêtement de selle anti-transpiration, porter des shorts de cyclisme avec un rembourrage intégré</string>
+
+        <string name="Rails">Rails</string>
+            <string name="Rails_Cassure_ou_fissure_des_rails">Cassure ou fissure des rails</string>
+            <string name="Rails_Cassure_ou_fissure_des_rails_desc">Instabilité de la selle, risque de chute\nRemplacer les rails endommagés, choisir des rails de haute qualité</string>
+
+            <string name="Rails_Deterioration_de_la_fixation">Détérioration de la fixation</string>
+            <string name="Rails_Deterioration_de_la_fixation_desc">Selle mal fixée, risque de déplacement pendant la conduite\nVérifier et resserrer régulièrement les fixations, utiliser des outils appropriés</string>
+
+            <string name="Rails_Mauvaise_compatibilité_avec_la_tige_de_selle">Mauvaise compatibilité avec la tige de selle</string>
+            <string name="Rails_Mauvaise_compatibilité_avec_la_tige_de_selle_desc">Incompatibilité de taille, selle instable\nVérifier la compatibilité avant l\'achat, utiliser des adaptateurs si nécessaire</string>
+
+        <string name="Tige">Tige</string>
+            <string name="Tige_Glissement_de_la_tige_de_selle">Glissement de la tige de selle</string>
+            <string name="Tige_Glissement_de_la_tige_de_selle_desc">Selle instable, inconfort, risque de chute\nNettoyer et graisser régulièrement la tige de selle, vérifier et resserrer les serrages, utiliser une pince adaptée</string>
+
+            <string name="Tige_Cassure_ou_fissure_de_la_tige_de_selle">Cassure ou fissure de la tige de selle</string>
+            <string name="Tige_Cassure_ou_fissure_de_la_tige_de_selle_desc">Selle instable, risque de chute\nRemplacer la tige de selle endommagée, choisir une tige de selle de haute qualité et adaptée au cadre</string>
+
+            <string name="Tige_Incompatibilité_de_taille_entre_la_tige_de_selle_et_le_cadre">Incompatibilité de taille entre la tige de selle et le cadre</string>
+            <string name="Tige_Incompatibilité_de_taille_entre_la_tige_de_selle_et_le_cadre_desc">Mauvaise fixation de la selle, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l'achat, utiliser des adaptateurs si nécessaire</string>
+
+
+    <!-- Guidon -->
+    <string name="Guidon">Guidon</string>
+        <string name="Potence">Potence</string>
+            <string name="Potence_Jeu_dans_la_potence">Jeu dans la potence</string>
+            <string name="Potence_Jeu_dans_la_potence_desc">Manque de stabilité, risque de perte de contrôle\nVérifier et resserrer les serrages, remplacer les pièces usées, ajuster le jeu selon les spécifications du fabricant</string>
+
+            <string name="Potence_Cassure_ou_fissure_de_la_potence">Cassure ou fissure de la potence</string>
+            <string name="Potence_Cassure_ou_fissure_de_la_potence_desc">Perte de contrôle, risque de chute\nRemplacer la potence endommagée, choisir une potence de haute qualité et adaptée au diamètre du pivot de fourche</string>
+
+            <string name="Potence_Incompatibilité_de_taille_entre_la_potence_et_le_pivot_de_fourche">Incompatibilité de taille entre la potence et le pivot de fourche</string>
+            <string name="Potence_Incompatibilité_de_taille_entre_la_potence_et_le_pivot_de_fourche_desc">Mauvaise fixation du guidon, risque de déplacement pendant la conduite\nVérifier la compatibilité avant l'achat, utiliser des adaptateurs si nécessaire</string>
+
+        <string name="Cintre">Cintre</string>
+            <string name="Cintre_mal_positionné_ou_mal_fixé">Cintre mal positionné ou mal fixé</string>
+            <string name="Cintre_mal_positionné_ou_mal_fixé_desc">Perte de contrôle, inconfort, risque de chute\nVérifier et ajuster la position du cintre, resserrer les fixations</string>
+
+            <string name="Cintre_trop_étroit_ou_trop_large">Cintre trop étroit ou trop large</string>
+            <string name="Cintre_trop_étroit_ou_trop_large_desc">Manque de contrôle, inconfort, douleurs au niveau des épaules et du dos\nChoisir un cintre adapté à la morphologie et aux préférences du cycliste, ajuster la largeur si nécessaire</string>
+
+            <string name="Cintre_endommagé_ou_fissuré">Cintre endommagé ou fissuré</string>
+            <string name="Cintre_endommagé_ou_fissuré_desc">Perte de contrôle, risque de rupture, risque de chute\nRemplacer le cintre endommagé par un neuf de qualité, inspecter régulièrement pour détecter les signes d'usure ou de dommage</string>
+
+        <string name="ManetteDeVitesse">Manette de vitesse</string>
+            <string name="Manette_de_vitesse_bloquée_ou_coincée">Manette de vitesse bloquée ou coincée</string>
+            <string name="Manette_de_vitesse_bloquée_ou_coincée_desc">Perte de contrôle, impossibilité de changer de vitesses, risque de chute\nVérifier et nettoyer la manette, lubrifier les composants, remplacer si nécessaire</string>
+
+            <string name="Manette_de_vitesse_qui_ne_senclenche_pas_correctement">Manette de vitesse qui ne s\'enclenche pas correctement</string>
+            <string name="Manette_de_vitesse_qui_ne_senclenche_pas_correctement_desc">Difficulté à passer les vitesses, perte de performance, inconfort\nAjuster les réglages de la manette, vérifier les câbles et gaines, remplacer les éléments usés ou endommagés</string>
+
+            <string name="Manette_de_vitesse_endommagée_ou_cassée">Manette de vitesse endommagée ou cassée</string>
+            <string name="Manette_de_vitesse_endommagée_ou_cassée_desc">Impossibilité de changer de vitesses, perte de contrôle, risque de chute\nRemplacer la manette de vitesse défectueuse par une nouvelle, effectuer les réglages nécessaires</string>
+
+        <string name="Poignees">Poignées</string>
+            <string name="Poignées_usées_ou_dégradées">Poignées usées ou dégradées</string>
+            <string name="Poignées_usées_ou_dégradées_desc">Perte d\'adhérence, inconfort, risque de glissement des mains\nRemplacer les poignées usées par des nouvelles, choisir des poignées adaptées à l'usage</string>
+
+            <string name="Poignées_mal_fixées">Poignées mal fixées</string>
+            <string name="Poignées_mal_fixées_desc">Instabilité, risque de perte de contrôle, inconfort\nVérifier et resserrer les fixations des poignées, utiliser un adhésif de qualité pour une meilleure adhérence</string>
+
+            <string name="Poignées_inadaptées_à_la_morphologie_de_lutilisateur">Poignées inadaptées à la morphologie de l\'utilisateur</string>
+            <string name="Poignées_inadaptées_à_la_morphologie_de_lutilisateur_desc">Inconfort, engourdissement des mains, risque de blessure\nChoisir des poignées ergonomiques et adaptées à la taille des mains, ajuster leur position</string>
+
+        <string name="Barends">Bar-ends</string>
+            <string name="Barends_mal_fixés">Bar-ends mal fixés</string>
+            <string name="Barends_mal_fixés_desc">Instabilité, risque de perte de contrôle, inconfort\nVérifier et resserrer les fixations des bar-ends, utiliser des outils adaptés</string>
+
+            <string name="Barends_endommagés_ou_fissurés">Bar-ends endommagés ou fissurés</string>
+            <string name="Barends_endommagés_ou_fissurés_desc">Risque de rupture, blessures en cas de chute\nRemplacer les bar-ends endommagés par des neufs de qualité, éviter les chocs violents</string>
+
+            <string name="Barends_inadaptés_à_la_morphologie_de_lutilisateur">Bar-ends inadaptés à la morphologie de l\'utilisateur</string>
+            <string name="Barends_inadaptés_à_la_morphologie_de_lutilisateur_desc">Inconfort, engourdissement des mains, mauvaise posture\nChoisir des bar-ends ergonomiques et ajustables, les positionner correctement</string>
+
+
+    <!-- Cadre -->
+    <string name="Frein">Frein</string>
+        <string name="LevierDeFrein">Levier de frein</string>
+            <string name="Levier_de_frein_mal_ajusté_ou_desserré">Levier de frein mal ajusté ou desserré</string>
+            <string name="Levier_de_frein_mal_ajusté_ou_desserré_desc">Mauvaise réactivité des freins, perte de puissance de freinage\nVérifier et ajuster le positionnement et le serrage du levier de frein, faire l'entretien régulier des câbles et des patins de frein</string>
+
+            <string name="Levier_de_frein_endommagé_ou_cassé">Levier de frein endommagé ou cassé</string>
+            <string name="Levier_de_frein_endommagé_ou_cassé_desc">Perte totale de freinage, risque d\'accident\nRemplacer le levier de frein endommagé par un neuf de qualité, vérifier régulièrement son état</string>
+
+            <string name="Levier_de_frein_glissant_ou_non_ergonomique">Levier de frein glissant ou non ergonomique</string>
+            <string name="Levier_de_frein_glissant_ou_non_ergonomique_desc">Perte de contrôle, inconfort, mauvaise modulation du freinage\nUtiliser des leviers de frein avec une texture antidérapante, ajuster leur position pour une ergonomie optimale</string>
+
+        <string name="CableDeFrein">Cable de frein</string>
+            <string name="Câble_de_frein_usé_ou_endommagé">Câble de frein usé ou endommagé</string>
+            <string name="Câble_de_frein_usé_ou_endommagé_desc">Diminution de l\'efficacité de freinage, risque de rupture du câble\nRemplacer le câble de frein usé ou endommagé par un neuf, vérifier régulièrement son état</string>
+
+            <string name="Câble_de_frein_mal_tendu_ou_desserré">Câble de frein mal tendu ou desserré</string>
+            <string name="Câble_de_frein_mal_tendu_ou_desserré_desc">Mauvaise réactivité des freins, déséquilibre du freinage\nAjuster la tension du câble de frein conformément aux recommandations du fabricant, vérifier le serrage des vis de réglage</string>
+
+            <string name="Câble_de_frein_coincé_ou_bloqué">Câble de frein coincé ou bloqué</string>
+            <string name="Câble_de_frein_coincé_ou_bloqué_desc">Freinage continu, perte de contrôle\nVérifier et lubrifier le câble de frein, s\'assurer qu\'il est correctement inséré dans les gaines</string>
+
+        <string name="EtrierDeFrein">Etrier de frein</string>
+            <string name="Étrier_de_frein_mal_aligné_ou_désaxé">Étrier de frein mal aligné ou désaxé</string>
+            <string name="Étrier_de_frein_mal_aligné_ou_désaxé_desc">Mauvaise réactivité des freins, déséquilibre du freinage\nRéaligner et recentrer l\'étrier de frein, vérifier le positionnement des patins de frein</string>
+
+            <string name="Étrier_de_frein_grippé_ou_collant">Étrier de frein grippé ou collant</string>
+            <string name="Étrier_de_frein_grippé_ou_collant_desc">Freinage inefficace, surchauffe des freins\nNettoyer et lubrifier l\'étrier de frein, vérifier l'état des ressorts et des pivots</string>
+
+            <string name="Étrier_de_frein_endommagé_ou_fissuré">Étrier de frein endommagé ou fissuré</string>
+            <string name="Étrier_de_frein_endommagé_ou_fissuré_desc">Risque de rupture, perte complète de freinage\nRemplacer l\'étrier de frein endommagé par un neuf, effectuer une inspection régulière</string>
+
+        <string name="PatinsDeFrein">Patins de frein</string>
+            <string name="Patins_de_frein_usés_ou_dégradés">Patins de frein usés ou dégradés</string>
+            <string name="Patins_de_frein_usés_ou_dégradés_desc">Freinage inefficace, risque de glissade\nRemplacer les patins de frein usés par des neufs, vérifier régulièrement leur état d'usure</string>
+
+            <string name="Patins_de_frein_mal_positionnés">Patins de frein mal positionnés</string>
+            <string name="Patins_de_frein_mal_positionnés_desc">Mauvaise réactivité des freins, déséquilibre du freinage\nAjuster la position des patins de frein pour qu\'ils soient correctement alignés avec la jante, vérifier leur centrage</string>
+
+            <string name="Patins_de_frein_contaminés_ou_encrassés">Patins de frein contaminés ou encrassés</string>
+            <string name="Patins_de_frein_contaminés_ou_encrassés_desc">Freinage inefficace, risque de surchauffe des freins\nNettoyer les patins de frein, la jante et les éventuelles particules contaminantes, utiliser des produits adaptés</string>
+
+        <string name="DisquesDeFrein">Disque de frein</string>
+            <string name="Disques_de_frein_usés_ou_endommagés">Disques de frein usés ou endommagés</string>
+            <string name="Disques_de_frein_usés_ou_endommagés_desc">Freinage inefficace, risque d\'instabilité\nRemplacer les disques de frein usés ou endommagés par des neufs, vérifier régulièrement leur épaisseur et leur état</string>
+
+            <string name="Disques_de_frein_voilés_ou_mal_alignés">Disques de frein voilés ou mal alignés</string>
+            <string name="Disques_de_frein_voilés_ou_mal_alignés_desc">Vibration, bruit, freinage déséquilibré\nRéaligner les disques de frein, vérifier leur planéité et leur centrage, effectuer un rodage si nécessaire</string>
+
+            <string name="Disques_de_frein_contaminés_ou_huileux">Disques de frein contaminés ou huileux</string>
+            <string name="Disques_de_frein_contaminés_ou_huileux_desc">Freinage inefficace, risque de glissade\nNettoyer les disques de frein, utiliser un dégraissant approprié, éviter tout contact avec des substances huileuses</string>
+
+        <string name="PlaquettesDeFrein">Plaquettes de frein</string>
+            <string name="Plaquettes_de_frein_usées">Plaquettes de frein usées</string>
+            <string name="Plaquettes_de_frein_usées_desc">Freinage inefficace, risque d\'instabilité\nRemplacer les plaquettes de frein usées par des neuves, vérifier régulièrement leur épaisseur et leur état</string>
+
+            <string name="Plaquettes_de_frein_contaminées_ou_huileuses">Plaquettes de frein contaminées ou huileuses</string>
+            <string name="Plaquettes_de_frein_contaminées_ou_huileuses_desc">Freinage inefficace, risque de glissade\nNettoyer les plaquettes de frein, utiliser un dégraissant approprié, éviter tout contact avec des substances huileuses</string>
+
+            <string name="Plaquettes_de_frein_mal_alignées_ou_mal_positionnées">Plaquettes de frein mal alignées ou mal positionnées</string>
+            <string name="Plaquettes_de_frein_mal_alignées_ou_mal_positionnées_desc">Bruit, freinage déséquilibré, risque d\'usure prématurée\nRéaligner les plaquettes de frein, vérifier leur positionnement par rapport au disque, ajuster si nécessaire</string>
+
+
+
+
+    <string name="Cadre">Cadre</string>
+        <string name="Tubes">Tubes</string>
+            <string name="Tubes_Fissures_ou_ruptures">Fissures ou ruptures</string>
+            <string name="Tubes_Fissures_ou_ruptures_desc">Perte d\'intégrité structurale, risque de chute\nRemplacer le tube endommagé ou le cadre complet</string>
+
+            <string name="Tubes_Corrosion">Corrosion</string>
+            <string name="Tubes_Corrosion_desc">Affaiblissement du matériau, risque de défaillance\nEntretenir le cadre en le nettoyant et en appliquant un revêtement protecteur, inspecter régulièrement les zones sujettes à la corrosion</string>
+
+            <string name="Tubes_Deformation">Déformation</string>
+            <string name="Tubes_Deformation_desc">Altération de la géométrie du cadre, impact sur la performance\nVérifier l\'intégrité des tubes et procéder à des ajustements ou au remplacement si nécessaire</string>
+
+        <string name="Jonctions">Jonctions</string>
+            <string name="Jonctions_Defaillance_de_soudure">Défaillance de soudure</string>
+            <string name="Jonctions_Defaillance_de_soudure_desc">Perte d\'intégrité structurale, risque de rupture\nRéparer ou remplacer les soudures défaillantes</string>
+
+            <string name="Jonctions_Jeu_excessif_ou_desserrage_des_vis">Jeu excessif ou desserrage des vis</string>
+            <string name="Jonctions_Jeu_excessif_ou_desserrage_des_vis_desc">Instabilité du cadre, risque de chute\nVérifier et resserrer régulièrement les vis de jonction</string>
+
+            <string name="Jonctions_Fissures_au_niveau_des_jonctions">Fissures au niveau des jonctions</string>
+            <string name="Jonctions_Fissures_au_niveau_des_jonctions_desc">Affaiblissement de la structure, risque de rupture\nExaminer les jonctions pour détecter les fissures et remplacer les pièces défectueuses</string>
+
+        <string name="Pattes">Pattes</string>
+            <string name="Pattes_de_cadre_tordues_ou_endommagées">Pattes de cadre tordues ou endommagées</string>
+            <string name="Pattes_de_cadre_tordues_ou_endommagées_desc">Mauvais alignement de la roue, risque de dysfonctionnement des composants\nRemplacer les pattes de cadre endommagées</string>
+
+            <string name="Pattes_Desserrage_des_écrous_de_serrage_de_la_roue">Desserrage des écrous de serrage de la roue</string>
+            <string name="Pattes_Desserrage_des_écrous_de_serrage_de_la_roue_desc">Risque de perte de la roue pendant la conduite\nVérifier et resserrer régulièrement les écrous de serrage</string>
+
+            <string name="Pattes_de_cadre_fissurées">Pattes de cadre fissurées</string>
+            <string name="Pattes_de_cadre_fissurées_desc">Affaiblissement de la structure, risque de rupture\nExaminer les pattes de cadre pour détecter les fissures et remplacer les pièces défectueuses</string>
+
+        <string name="DouilleDeDirection">Douille De Direction</string>
+            <string name="Douille_De_Direction_Jeu_excessif_dans_les_douilles_de_direction">Jeu excessif dans les douilles de direction</string>
+            <string name="Douille_De_Direction_Jeu_excessif_dans_les_douilles_de_direction_desc">Instabilité de la direction, risque de perte de contrôle\nAjuster le jeu ou remplacer les roulements/douilles défectueux</string>
+
+            <string name="Douilles_de_direction_grippées">Douilles de direction grippées</string>
+            <string name="Douilles_de_direction_grippées_desc">Difficulté à tourner le guidon, mauvaise maniabilité\nNettoyer, lubrifier ou remplacer les douilles de direction</string>
+
+            <string name="Douille_De_Direction_Fissures_ou_domages_aux_douilles_de_direction">Fissures ou dommages aux douilles de direction</string>
+            <string name="Douille_De_Direction_Fissures_ou_domages_aux_douilles_de_direction_desc">Affaiblissement de la structure, risque de rupture\nExaminer les douilles de direction pour détecter les fissures et remplacer les pièces défectueuses</string>
+
+        <string name="DouilleDeBoitierDePedalier">Douille De Boitier De Pédalier</string>
+            <string name="Douille_De_Boitier_De_Pedalier_Jeu_excessif_dans_les_douilles_de_boîtier_de_pédalier">Jeu excessif dans les douilles de boîtier de pédalier</string>
+            <string name="Douille_De_Boitier_De_Pedalier_Jeu_excessif_dans_les_douilles_de_boîtier_de_pédalier_desc">Mauvaise transmission de puissance, risque de dommages aux composants\nAjuster le jeu ou remplacer les roulements/douilles défectueux</string>
+
+            <string name="Douilles_de_boîtier_de_pédalier_grippées">Douilles de boîtier de pédalier grippées</string>
+            <string name="Douilles_de_boîtier_de_pédalier_grippées_desc">Difficulté à tourner les pédales, mauvaise efficacité de pédalage\nNettoyer, lubrifier ou remplacer les douilles de boîtier de pédalier</string>
+
+            <string name="Douille_De_Boitier_De_Pedalier_Fissures_ou_domages_aux_douilles_de_boîtier_de_pédalier">Fissures ou dommages aux douilles de boîtier de pédalier</string>
+            <string name="Douille_De_Boitier_De_Pedalier_Fissures_ou_domages_aux_douilles_de_boîtier_de_pédalier_desc">Affaiblissement de la structure, risque de rupture\nExaminer les douilles de boîtier de pédalier pour détecter les fissures et remplacer les pièces défectueuses</string>
+
+        <string name="TigeDeSelle">Tige De Selle</string>
+            <string name="Tige_De_Selle_Glissement_de_la_tige_de_selle">Glissement de la tige de selle</string>
+            <string name="Tige_De_Selle_Glissement_de_la_tige_de_selle_desc">Mauvaise position de conduite, risque de chute\nNettoyer et graisser la tige de selle, utiliser un serrage approprié</string>
+
+            <string name="Tige_De_Selle_Fissures_ou_domages_à_la_tige_de_selle">Fissures ou dommages à la tige de selle</string>
+            <string name="Tige_De_Selle_Fissures_ou_domages_à_la_tige_de_selle_desc">Affaiblissement de la structure, risque de rupture\nExaminer la tige de selle pour détecter les fissures et remplacer la pièce si nécessaire</string>
+
+            <string name="Tige_De_Selle_Serrage_excessif_de_la_tige_de_selle">Serrage excessif de la tige de selle</string>
+            <string name="Tige_De_Selle_Serrage_excessif_de_la_tige_de_selle_desc">Risque de dommages au cadre, difficulté à ajuster la hauteur de selle\nUtiliser un couple de serrage recommandé, appliquer un gel anti-glissement</string>
+
+    <!-- Suspension -->
+    <string name="Suspension">Suspension</string>
+        <string name="Fourche">Fourche</string>
+            <string name="Fourche_Fuite_dhuile">Fuite d\'huile</string>
+            <string name="Fourche_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d'étanchéité</string>
+
+            <string name="Fourche_Blocage_ou_verrouillage">Blocage ou verrouillage</string>
+            <string name="Fourche_Blocage_ou_verrouillage_desc">Perte de contrôle, risque de chute\nDébloquer ou réparer les mécanismes de verrouillage</string>
+
+            <string name="Fourche_Jeu_excessif">Jeu excessif</string>
+            <string name="Fourche_Jeu_excessif_desc">Mauvaise stabilité, risque de casse\nAjuster ou remplacer les roulements, resserrer les fixations</string>
+
+        <string name="Amortisseur">Amortisseur</string>
+            <string name="Amortisseur_Fuite_dhuile">Fuite d\'huile</string>
+            <string name="Amortisseur_Fuite_dhuile_desc">Perte de performance, manque d\'amortissement\nVérifier et réparer les fuites, remplacer les joints d'étanchéité</string>
+
+            <string name="Amortisseur_Blocage_ou_verrouillage">Blocage ou verrouillage</string>
+            <string name="Amortisseur_Blocage_ou_verrouillage_desc">Perte de contrôle, risque de chute\nDébloquer ou réparer les mécanismes de verrouillage</string>
+
+            <string name="Amortisseur_Précontrainte_incorrecte">Précontrainte incorrecte</string>
+            <string name="Amortisseur_Précontrainte_incorrecte_desc">Mauvaise gestion des chocs, inconfort\nAjuster la précontrainte selon les spécifications du fabricant</string>
+
+        <string name="Ressorts">Ressorts</string>
+            <string name="Ressorts_Affaissement_excessif">Affaissement excessif</string>
+            <string name="Ressorts_Affaissement_excessif_desc">Manque d\'amortissement, mauvaise gestion des chocs\nAjuster la précharge des ressorts, remplacer les ressorts usés</string>
+
+            <string name="Ressorts_Cassure_ou_rupture_du_ressort">Cassure ou rupture du ressort</string>
+            <string name="Ressorts_Cassure_ou_rupture_du_ressort_desc">Perte d\'amortissement, risque de casse\nRemplacer le ressort cassé ou endommagé</string>
+
+            <string name="Ressorts_Bruits_ou_grincements">Bruits ou grincements</string>
+            <string name="Ressorts_Bruits_ou_grincements_desc">Mauvais fonctionnement, distraction\nLubrifier les ressorts, vérifier et resserrer les fixations</string>
+
+        <string name="JointsDetancheite">Joints D\'étanchéité</string>
+            <string name="JointsDetancheite_Fuites_dhuile">Fuites d\'huile</string>
+            <string name="JointsDetancheite_Fuites_dhuile_desc">Perte de performance, manque d\'amortissement\nRemplacer les joints d'étanchéité défectueux</string>
+
+            <string name="JointsDetancheite_Usure_prématurée">Usure prématurée</string>
+            <string name="JointsDetancheite_Usure_prématurée_desc">Mauvaise étanchéité, perte d\'amortissement\nVérifier et entretenir régulièrement les joints, les remplacer si nécessaire</string>
+
+            <string name="JointsDetancheite_Dégradation_due_aux_conditions_environnementales">Dégradation due aux conditions environnementales</string>
+            <string name="JointsDetancheite_Dégradation_due_aux_conditions_environnementales_desc">Mauvaise étanchéité, corrosion\nProtéger les joints contre les éléments, nettoyer et lubrifier régulièrement</string>
+
+    <!-- Pedalier -->
+    <string name="Pedalier">Pédalier</string>
+        <string name="Plateaux">Plateaux</string>
+
+            <!-- problème plateau-->
+            <string name="Plateau_Déraillement_de_la_chaîne">Déraillement de la chaîne</string>
+            <string name="Plateau_Déraillement_de_la_chaîne_desc">Risque de chute ou de blocage de la chaîne\nVérifier l\'alignement des vitesses et ajuster le câble de changement de vitesses</string>
+
+            <string name="Plateau_usé_ou_endommagé">Plateau usé ou endommagé</string>
+            <string name="Plateau_usé_ou_endommagé_desc">Risque de perte de transmission de puissance ou de rupture de la chaîne\nRemplacer le plateau ou les plateaux endommagés</string>
+
+            <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau">Bruit de craquement au niveau du plateau</string>
+            <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau_desc">Risque de panne ou de casse de la chaîne\nNettoyer et lubrifier le plateau ou remplacer le plateau si nécessaire</string>
+
+            <string name="Plateau_mal_ajusté">Plateau mal ajusté</string>
+            <string name="Plateau_mal_ajusté_desc">Risque de saut de chaîne ou de déraillement\nAjuster le plateau en vérifiant les boulons et les écrous</string>
+
+            <string name="Plateau_Chaîne_sautant_sur_le_plateau">Chaîne sautant sur le plateau</string>
+            <string name="Plateau_Chaîne_sautant_sur_le_plateau_desc">Risque de chute ou de perte de transmission de puissance\nVérifier l\'usure de la chaîne et remplacer si nécessaire, ajuster l'alignement des vitesses</string>
+
+            <string name="Plateau_tordu_ou_mal_aligné">Plateau tordu ou mal aligné</string>
+            <string name="Plateau_tordu_ou_mal_aligné_desc">Risque de saut de chaîne ou de déraillement\nAjuster ou remplacer le plateau, vérifier l'alignement des vitesses</string>
+
+
+        <string name="Manivelles">Manivelles</string>
+            <string name="Manivelles_Desserrage">Desserrage</string>
+            <string name="Manivelles_Desserrage_desc">Perte de contrôle, risque de chute\nResserrer la manivelle</string>
+
+            <string name="Manivelles_Fissure_ou_rupture">Fissure ou rupture</string>
+            <string name="Manivelles_Fissure_ou_rupture_desc">Perte de contrôle, risque de chute\nRemplacer la manivelle endommagée</string>
+
+            <string name="Manivelles_Jeu_excessif">Jeu excessif</string>
+            <string name="Manivelles_Jeu_excessif_desc">Mauvais fonctionnement, perte d\'efficacité\nAjuster ou remplacer les roulements de la manivelle</string>
+
+        <string name="Axe">Axe</string>
+            <string name="Axe_Desserrage">Desserrage</string>
+            <string name="Axe_Desserrage_desc">Mauvais fonctionnement, risque de chute\nResserrer l\'axe du pédalier</string>
+
+            <string name="Axe_Jeu_excessif">Jeu excessif</string>
+            <string name="Axe_Jeu_excessif_desc">Mauvais fonctionnement, risque de chute\nAjuster ou remplacer les roulements de l\'axe</string>
+
+            <string name="Axe_Cassure_ou_rupture">Cassure ou rupture</string>
+            <string name="Axe_Cassure_ou_rupture_desc">Perte de contrôle, risque de chute\nRemplacer l\'axe cassé ou endommagé</string>
+
+        <string name="Pedales">Pédales</string>
+            <string name="Pedales_Desserrage">Desserrage</string>
+            <string name="Pedales_Desserrage_desc">Perte de contrôle, risque de chute\nResserrer les pédales</string>
+
+            <string name="Pedales_Jeu_excessif">Jeu excessif</string>
+            <string name="Pedales_Jeu_excessif_desc">Mauvais fonctionnement, perte d\'efficacité\nAjuster ou remplacer les roulements des pédales</string>
+
+            <string name="Pedales_Cassure_ou_rupture">Cassure ou rupture</string>
+            <string name="Pedales_Cassure_ou_rupture_desc">Perte de contrôle, risque de chute\nRemplacer les pédales cassées ou endommagées</string>
 
     <!-- Roue -->
-        <!-- problème Rayon-->
-        <string name="Rayon_Cassure_ou_rupture">Cassure ou rupture</string>
-        <string name="Rayon_Cassure_ou_rupture_desc">Instabilité de la roue, risque de chute\nRemplacer le rayon cassé ou endommagé</string>
+    <string name="Roue">Roue</string>
 
-        <string name="Rayon_Détension">Détension</string>
-        <string name="Rayon_Détension_desc">Instabilité de la roue, risque de voilage\nRetendre les rayons ou faire ajuster la tension par un professionnel</string>
+        <string name="Moyeu">Moyeu</string>
 
-        <string name="Rayon_Desserrage">Desserrage</string>
-        <string name="Rayon_Desserrage_desc">Instabilité de la roue, risque de voilage\nResserrer les rayons desserrés</string>
+            <!-- problème Moyeu-->
+            <string name="Moyeu_Jeu_excessif_dans_le_moyeu">Jeu excessif dans le moyeu</string>
+            <string name="Moyeu_Jeu_excessif_dans_le_moyeu_desc">Risque de perte de contrôle et d\'endommagement du moyeu\nAjuster les roulements du moyeu ou les remplacer si nécessaire</string>
 
-        <string name="Rayon_Mauvais_alignement">Mauvais alignement</string>
-        <string name="Rayon_Mauvais_alignement_desc">Instabilité de la roue, risque de voilage\nRéajuster et aligner les rayons</string>
+            <string name="Moyeu_Bruit_anormal_provenant_du_moyeu">Bruit anormal provenant du moyeu</string>
+            <string name="Moyeu_Bruit_anormal_provenant_du_moyeu_desc">Risque de défaillance du moyeu ou de perte de transmission de puissance\nVérifier et resserrer les écrous du moyeu, lubrifier les roulements si nécessaire</string>
 
-        <!-- problème Moyeu-->
-        <string name="Moyeu_Jeu_excessif_dans_le_moyeu">Jeu excessif dans le moyeu</string>
-        <string name="Moyeu_Jeu_excessif_dans_le_moyeu_desc">Risque de perte de contrôle et d\'endommagement du moyeu\nAjuster les roulements du moyeu ou les remplacer si nécessaire</string>
+            <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur">Moyeu qui ne tourne pas en douceur</string>
+            <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur_desc">Risque de friction excessive, d\'usure prématurée et de mauvaise performance\nNettoyer et lubrifier les roulements du moyeu ou les remplacer si nécessaires</string>
 
-        <string name="Moyeu_Bruit_anormal_provenant_du_moyeu">Bruit anormal provenant du moyeu</string>
-        <string name="Moyeu_Bruit_anormal_provenant_du_moyeu_desc">Risque de défaillance du moyeu ou de perte de transmission de puissance\nVérifier et resserrer les écrous du moyeu, lubrifier les roulements si nécessaire</string>
+            <string name="Moyeu_cassé_ou_endommagé">Moyeu cassé ou endommagé</string>
+            <string name="Moyeu_cassé_ou_endommagé_desc">Risque de défaillance complète du moyeu et de perte de contrôle\nRemplacer le moyeu endommagé par un nouveau</string>
 
-        <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur">Moyeu qui ne tourne pas en douceur</string>
-        <string name="Moyeu_Moyeu_qui_ne_tourne_pas_en_douceur_desc">Risque de friction excessive, d\'usure prématurée et de mauvaise performance\nNettoyer et lubrifier les roulements du moyeu ou les remplacer si nécessaires</string>
+            <string name="Moyeu_Mauvaise_rétention_des_roulements">Mauvaise rétention des roulements</string>
+            <string name="Moyeu_Mauvaise_rétention_des_roulements_desc">Risque de jeu excessif ou de blocage des roues\nRemplacer les roulements usés ou endommagés, ajuster la précontrainte des roulements si nécessaire</string>
 
-        <string name="Moyeu_cassé_ou_endommagé">Moyeu cassé ou endommagé</string>
-        <string name="Moyeu_cassé_ou_endommagé_desc">Risque de défaillance complète du moyeu et de perte de contrôle\nRemplacer le moyeu endommagé par un nouveau</string>
+            <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants">Incompatibilité du moyeu avec d\'autres composants</string>
+            <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants_desc">Risque de dysfonctionnement de la transmission ou de mauvais réglages\nAssurer la compatibilité des composants du vélo, remplacer le moyeu si nécessaire</string>
 
-        <string name="Moyeu_Mauvaise_rétention_des_roulements">Mauvaise rétention des roulements</string>
-        <string name="Moyeu_Mauvaise_rétention_des_roulements_desc">Risque de jeu excessif ou de blocage des roues\nRemplacer les roulements usés ou endommagés, ajuster la précontrainte des roulements si nécessaire</string>
+        <string name="Rayon">Rayon</string>
 
-        <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants">Incompatibilité du moyeu avec d\'autres composants</string>
-        <string name="Moyeu_Incompatibilité_du_moyeu_avec_dautres_composants_desc">Risque de dysfonctionnement de la transmission ou de mauvais réglages\nAssurer la compatibilité des composants du vélo, remplacer le moyeu si nécessaire</string>
+            <!-- problème Rayon-->
+            <string name="Rayon_Cassure_ou_rupture">Cassure ou rupture</string>
+            <string name="Rayon_Cassure_ou_rupture_desc">Instabilité de la roue, risque de chute\nRemplacer le rayon cassé ou endommagé</string>
 
+            <string name="Rayon_Détension">Détension</string>
+            <string name="Rayon_Détension_desc">Instabilité de la roue, risque de voilage\nRetendre les rayons ou faire ajuster la tension par un professionnel</string>
 
-        <!-- problème Jante-->
-        <string name="Jante_Probleme_vibration_jante">Problème de vibrations des jantes</string>
-        <string name="Jante_Probleme_vibration_jante_desc">Risque de perte de contrôle ou d\'inconfort pendant la conduite\nVérifier l\'équilibrage des jantes, remplacer les rayons endommagés ou desserrés</string>
+            <string name="Rayon_Desserrage">Desserrage</string>
+            <string name="Rayon_Desserrage_desc">Instabilité de la roue, risque de voilage\nResserrer les rayons desserrés</string>
 
-        <string name="Jante_Deformation_jante">Déformation de la jante</string>
-        <string name="Jante_Deformation_jante_desc">Risque de perturbation de la rotation de la roue et de mauvaise tenue de la pression des pneus\nRemplacer la jante déformée ou endommagée</string>
+            <string name="Rayon_Mauvais_alignement">Mauvais alignement</string>
+            <string name="Rayon_Mauvais_alignement_desc">Instabilité de la roue, risque de voilage\nRéajuster et aligner les rayons</string>
 
-        <string name="Jante_Mauvais_alignement_jante">Mauvais alignement de la jante</string>
-        <string name="Jante_Mauvais_alignement_jante_desc">Risque de frottement des freins, de problèmes de changement de vitesses ou de déséquilibre\nAjuster l'alignement de la jante, retendre ou remplacer les rayons si nécessaire</string>
+        <string name="Jante">Jante</string>
 
-        <string name="Jante_Usure_surface_freinage">Usure excessive de la surface de freinage</string>
-        <string name="Jante_Usure_surface_freinage_desc">Risque de diminution de l\'efficacité du freinage et d\'augmentation de la distance d\'arrêt\nRemplacer la jante usée, vérifier et ajuster régulièrement les patins de frein</string>
+            <!-- problème Jante-->
+            <string name="Jante_Probleme_vibration_jante">Problème de vibrations des jantes</string>
+            <string name="Jante_Probleme_vibration_jante_desc">Risque de perte de contrôle ou d\'inconfort pendant la conduite\nVérifier l\'équilibrage des jantes, remplacer les rayons endommagés ou desserrés</string>
 
-        <!-- problème Pneu-->
-        <string name="Pneu_Usure_de_la_bande_de_roulement">Usure de la bande de roulement</string>
-        <string name="Pneu_Usure_de_la_bande_de_roulement_desc">Perte d\'adhérence, risque accru de glissade\nRemplacer le pneu</string>
+            <string name="Jante_Deformation_jante">Déformation de la jante</string>
+            <string name="Jante_Deformation_jante_desc">Risque de perturbation de la rotation de la roue et de mauvaise tenue de la pression des pneus\nRemplacer la jante déformée ou endommagée</string>
 
-        <string name="Pneu_Crevaison">Crevaison</string>
-        <string name="Pneu_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer le pneu</string>
+            <string name="Jante_Mauvais_alignement_jante">Mauvais alignement de la jante</string>
+            <string name="Jante_Mauvais_alignement_jante_desc">Risque de frottement des freins, de problèmes de changement de vitesses ou de déséquilibre\nAjuster l'alignement de la jante, retendre ou remplacer les rayons si nécessaire</string>
 
-        <string name="Pneu_Surgonflage">Sur-gonflage</string>
-        <string name="Pneu_Surgonflage_desc">Perte d\'adhérence, usure prématurée du pneu\nDégonfler légèrement le pneu</string>
-
-        <string name="Pneu_Sousgonflage">Sous-gonflage</string>
-        <string name="Pneu_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de crevaison\nGonfler le pneu à la pression recommandée</string>
-
-        <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu">Déchirure ou fissure sur le flanc du pneu</string>
-        <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu_desc">Risque d\'éclatement, perte de contrôle\nRemplacer le pneu</string>
-
-        <!-- problème Chambre à aire-->
-        <string name="Chambre_a_air_Crevaison">Crevaison</string>
-        <string name="Chambre_a_air_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer la chambre à air</string>
-
-        <string name="Chambre_a_air_Pincement">Pincement</string>
-        <string name="Chambre_a_air_Pincement_desc">Crevaison, perte de contrôle\nVérifier et ajuster l\'installation de la chambre à air</string>
-
-        <string name="Chambre_a_air_Valve_défectueuse">Valve défectueuse</string>
-        <string name="Chambre_a_air_Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve de la chambre à air</string>
-
-        <string name="Chambre_a_air_Déchirure_ou_perforation">Déchirure ou perforation</string>
-        <string name="Chambre_a_air_Déchirure_ou_perforation_desc">Crevaison, perte de contrôle\nRéparer ou remplacer la chambre à air</string>
-
-        <string name="Chambre_a_air_Sousgonflage">Sous-gonflage</string>
-        <string name="Chambre_a_air_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de pincement\nGonfler la chambre à air à la pression recommandée</string>
-
-        <!-- problème Blocage rapide-->
-        <string name="Blocage_Rapide_Mauvaise_installation">Mauvaise installation</string>
-        <string name="Blocage_Rapide_Mauvaise_installation_desc">Désengagement inattendu, perte de contrôle\nVérifier et ajuster correctement le blocage rapide</string>
-
-        <string name="Blocage_Rapide_Usure_ou_endommagement">Usure ou endommagement</string>
-        <string name="Blocage_Rapide_Usure_ou_endommagement_desc">Désengagement inattendu, perte de contrôle\nRemplacer le blocage rapide</string>
-
-        <string name="Blocage_Rapide_Blocage_insuffisant">Blocage insuffisant</string>
-        <string name="Blocage_Rapide_Blocage_insuffisant_desc">Mauvaise tenue de la roue, risque de désengagement\nSerrer correctement le blocage rapide</string>
-
-        <!-- problème Fond de jante-->
-        <string name="Fond_De_Jante_Usure_ou_détérioration">Usure ou détérioration</string>
-        <string name="Fond_De_Jante_Usure_ou_détérioration_desc">Mauvaise tenue du pneu, risque de crevaison\nRemplacer le fond de jante</string>
-
-        <string name="Fond_De_Jante_Déformation">Déformation</string>
-        <string name="Fond_De_Jante_Déformation_desc">Mauvaise tenue du pneu, risque de crevaison\nRéparer ou remplacer le fond de jante</string>
-
-        <string name="Fond_De_Jante_Mauvaise_installation">Mauvaise installation</string>
-        <string name="Fond_De_Jante_Mauvaise_installation_desc">Mauvaise tenue du pneu, risque de crevaison\nInstaller correctement le fond de jante</string>
-
-        <!-- problème Valve-->
-        <string name="Valve_Fuite_dair">Fuite d\'air</string>
-        <string name="Valve_Fuite_dair_desc">Perte de pression, difficulté à gonfler le pneu\nRemplacer la valve ou utiliser un adaptateur</string>
-
-        <string name="Valve_Obstruction">Obstruction</string>
-        <string name="Valve_Obstruction_desc">Difficulté à gonfler le pneu, perte de pression\nNettoyer ou remplacer la valve</string>
-
-        <string name="Valve_défectueuse">Valve défectueuse</string>
-        <string name="Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve</string>
-
-        <string name="Valve_mal_positionnée">Valve mal positionnée</string>
-        <string name="Valve_mal_positionnée_desc">Perte de pression, difficulté à gonfler le pneu\nRéajuster la position de la valve</string>
+            <string name="Jante_Usure_surface_freinage">Usure excessive de la surface de freinage</string>
+            <string name="Jante_Usure_surface_freinage_desc">Risque de diminution de l\'efficacité du freinage et d\'augmentation de la distance d\'arrêt\nRemplacer la jante usée, vérifier et ajuster régulièrement les patins de frein</string>
 
 
-    <!-- problème plateau-->
-    <string name="Plateau_Déraillement_de_la_chaîne">Déraillement de la chaîne</string>
-    <string name="Plateau_Déraillement_de_la_chaîne_desc">Risque de chute ou de blocage de la chaîne\nVérifier l\'alignement des vitesses et ajuster le câble de changement de vitesses</string>
+        <string name="Pneu">Pneu</string>
 
-    <string name="Plateau_usé_ou_endommagé">Plateau usé ou endommagé</string>
-    <string name="Plateau_usé_ou_endommagé_desc">Risque de perte de transmission de puissance ou de rupture de la chaîne\nRemplacer le plateau ou les plateaux endommagés</string>
+            <!-- problème Pneu-->
+            <string name="Pneu_Usure_de_la_bande_de_roulement">Usure de la bande de roulement</string>
+            <string name="Pneu_Usure_de_la_bande_de_roulement_desc">Perte d\'adhérence, risque accru de glissade\nRemplacer le pneu</string>
 
-    <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau">Bruit de craquement au niveau du plateau</string>
-    <string name="Plateau_Bruit_de_craquement_au_niveau_du_plateau_desc">Risque de panne ou de casse de la chaîne\nNettoyer et lubrifier le plateau ou remplacer le plateau si nécessaire</string>
+            <string name="Pneu_Crevaison">Crevaison</string>
+            <string name="Pneu_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer le pneu</string>
 
-    <string name="Plateau_mal_ajusté">Plateau mal ajusté</string>
-    <string name="Plateau_mal_ajusté_desc">Risque de saut de chaîne ou de déraillement\nAjuster le plateau en vérifiant les boulons et les écrous</string>
+            <string name="Pneu_Surgonflage">Sur-gonflage</string>
+            <string name="Pneu_Surgonflage_desc">Perte d\'adhérence, usure prématurée du pneu\nDégonfler légèrement le pneu</string>
 
-    <string name="Plateau_Chaîne_sautant_sur_le_plateau">Chaîne sautant sur le plateau</string>
-    <string name="Plateau_Chaîne_sautant_sur_le_plateau_desc">Risque de chute ou de perte de transmission de puissance\nVérifier l\'usure de la chaîne et remplacer si nécessaire, ajuster l'alignement des vitesses</string>
+            <string name="Pneu_Sousgonflage">Sous-gonflage</string>
+            <string name="Pneu_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de crevaison\nGonfler le pneu à la pression recommandée</string>
 
-    <string name="Plateau_tordu_ou_mal_aligné">Plateau tordu ou mal aligné</string>
-    <string name="Plateau_tordu_ou_mal_aligné_desc">Risque de saut de chaîne ou de déraillement\nAjuster ou remplacer le plateau, vérifier l'alignement des vitesses</string>
+            <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu">Déchirure ou fissure sur le flanc du pneu</string>
+            <string name="Pneu_Déchirure_ou_fissure_sur_le_flanc_du_pneu_desc">Risque d\'éclatement, perte de contrôle\nRemplacer le pneu</string>
 
-    <!--Long Texte -->
-    <string name="TexteContact">Si aucun de vos problèmes n\'a été trouvé veuillez vous référer à un professionel</string>
+
+        <string name="ChambreAAire">Chambre a aire</string>
+
+            <!-- problème Chambre à aire-->
+            <string name="Chambre_a_air_Crevaison">Crevaison</string>
+            <string name="Chambre_a_air_Crevaison_desc">Perte de contrôle, chute\nRéparer ou remplacer la chambre à air</string>
+
+            <string name="Chambre_a_air_Pincement">Pincement</string>
+            <string name="Chambre_a_air_Pincement_desc">Crevaison, perte de contrôle\nVérifier et ajuster l\'installation de la chambre à air</string>
+
+            <string name="Chambre_a_air_Valve_défectueuse">Valve défectueuse</string>
+            <string name="Chambre_a_air_Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve de la chambre à air</string>
+
+            <string name="Chambre_a_air_Déchirure_ou_perforation">Déchirure ou perforation</string>
+            <string name="Chambre_a_air_Déchirure_ou_perforation_desc">Crevaison, perte de contrôle\nRéparer ou remplacer la chambre à air</string>
+
+            <string name="Chambre_a_air_Sousgonflage">Sous-gonflage</string>
+            <string name="Chambre_a_air_Sousgonflage_desc">Augmentation de la résistance au roulement, risque accru de pincement\nGonfler la chambre à air à la pression recommandée</string>
+
+
+        <string name="BlocageRapide">Blocage rapide</string>
+
+            <!-- problème Blocage rapide-->
+            <string name="Blocage_Rapide_Mauvaise_installation">Mauvaise installation</string>
+            <string name="Blocage_Rapide_Mauvaise_installation_desc">Désengagement inattendu, perte de contrôle\nVérifier et ajuster correctement le blocage rapide</string>
+
+            <string name="Blocage_Rapide_Usure_ou_endommagement">Usure ou endommagement</string>
+            <string name="Blocage_Rapide_Usure_ou_endommagement_desc">Désengagement inattendu, perte de contrôle\nRemplacer le blocage rapide</string>
+
+            <string name="Blocage_Rapide_Blocage_insuffisant">Blocage insuffisant</string>
+            <string name="Blocage_Rapide_Blocage_insuffisant_desc">Mauvaise tenue de la roue, risque de désengagement\nSerrer correctement le blocage rapide</string>
+
+
+        <string name="FondDeJante">Fond de jante</string>
+
+            <!-- problème Fond de jante-->
+            <string name="Fond_De_Jante_Usure_ou_détérioration">Usure ou détérioration</string>
+            <string name="Fond_De_Jante_Usure_ou_détérioration_desc">Mauvaise tenue du pneu, risque de crevaison\nRemplacer le fond de jante</string>
+
+            <string name="Fond_De_Jante_Déformation">Déformation</string>
+            <string name="Fond_De_Jante_Déformation_desc">Mauvaise tenue du pneu, risque de crevaison\nRéparer ou remplacer le fond de jante</string>
+
+            <string name="Fond_De_Jante_Mauvaise_installation">Mauvaise installation</string>
+            <string name="Fond_De_Jante_Mauvaise_installation_desc">Mauvaise tenue du pneu, risque de crevaison\nInstaller correctement le fond de jante</string>
+
+
+        <string name="Valve">Valve</string>
+
+            <!-- problème Valve-->
+            <string name="Valve_Fuite_dair">Fuite d\'air</string>
+            <string name="Valve_Fuite_dair_desc">Perte de pression, difficulté à gonfler le pneu\nRemplacer la valve ou utiliser un adaptateur</string>
+
+            <string name="Valve_Obstruction">Obstruction</string>
+            <string name="Valve_Obstruction_desc">Difficulté à gonfler le pneu, perte de pression\nNettoyer ou remplacer la valve</string>
+
+            <string name="Valve_défectueuse">Valve défectueuse</string>
+            <string name="Valve_défectueuse_desc">Perte d\'air, impossibilité de gonflage\nRemplacer la valve</string>
+
+            <string name="Valve_mal_positionnée">Valve mal positionnée</string>
+            <string name="Valve_mal_positionnée_desc">Perte de pression, difficulté à gonfler le pneu\nRéajuster la position de la valve</string>
 
 </resources>
