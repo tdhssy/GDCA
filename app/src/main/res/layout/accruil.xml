@@ -7,85 +7,84 @@
         android:layout_height="match_parent"
         tools:context=".view.Acceuil" android:id="@+id/velo">
 
-    <ImageButton
-            android:src="@drawable/icon_menubar"
-            android:layout_width="50dp"
-            android:layout_height="50dp" android:id="@+id/b_menu"
-            android:scaleType="fitCenter" android:contentDescription="@string/Bouton_menu"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toStartOf="@+id/b_aide"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton
+                android:src="@drawable/icon_menubar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/b_menu"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/Bouton_menu"
+                tools:ignore="MissingConstraints"/>
 
-    <ImageButton
-            android:src="@drawable/what_icon"
-            android:layout_width="50dp"
-            android:layout_height="50dp" android:id="@+id/b_aide"
-            android:scaleType="fitCenter" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout2" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/b_menu" android:layout_marginStart="312dp"
-            android:contentDescription="@string/Aide"/>
+        <ImageButton
+                android:src="@drawable/what_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp" android:id="@+id/b_aide"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/Aide"
+                tools:ignore="MissingConstraints"
+                android:layout_marginLeft="250dp"/>
 
+    </LinearLayout>
     <LinearLayout
             android:orientation="vertical"
-            android:layout_width="409dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/linearLayout2"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="50dp">
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="50dp"
+    >
         <ImageView
                 android:src="@drawable/bike_fullpicture"
                 android:layout_width="wrap_content"
-                android:layout_height="300dp" android:id="@+id/imageView"
-                android:scaleType="fitCenter"/>
+                android:layout_height="300dp"
+                android:id="@+id/imageView"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"/>
         <TextView
                 android:text="@string/Partie"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/partie" android:textSize="34sp"
-                android:textAlignment="center"/>
+                android:layout_height="wrap_content"
+                android:id="@+id/partie"
+                android:textSize="34sp"
+                android:textAlignment="center"
+                tools:ignore="MissingConstraints"
+                android:layout_marginTop="10dp"/>
+
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="204dp"
-                    android:layout_height="match_parent">
-                <Button
-                        android:text="@string/Pedalier"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_pedalier"/>
-                <Button
-                        android:text="@string/Suspension"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_suspension"/>
-                <Button
-                        android:text="@string/Cadre"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_cadre"/>
-                <Button
-                        android:text="@string/Frein"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_frein"/>
-            </LinearLayout>
-            <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="204dp"
-                    android:layout_height="match_parent">
-                <Button
-                        android:text="@string/Roue"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_roue"/>
-                <Button
-                        android:text="@string/Guidon"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_guidon"/>
-                <Button
-                        android:text="@string/Selle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/b_selle"/>
-            </LinearLayout>
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <ListView
+                    android:layout_width="174dp"
+                    android:layout_height="288dp"
+                    android:id="@+id/listeGauche"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"/>
+            <ListView
+                    android:layout_width="174dp"
+                    android:layout_height="288dp"
+                    android:id="@+id/listeDroite"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="right"/>
+
         </LinearLayout>
     </LinearLayout>
 
