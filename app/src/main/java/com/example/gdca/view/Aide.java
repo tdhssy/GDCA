@@ -11,8 +11,9 @@ import com.example.gdca.controller.eventHandler.AideController;
 
 public class Aide extends View {
     private final OnClickListener eventHandler;
-    private Button retour;
     private ImageButton retourImage;
+    private ImageButton parametre;
+    private Button retour;
     public Aide(ChangeView controller, Activity activity) {
         super(activity);
         eventHandler = new AideController(controller, activity);
@@ -21,6 +22,9 @@ public class Aide extends View {
 
         retourImage = (ImageButton) activity.findViewById(R.id.RetourButton);
         retourImage.setOnClickListener(eventHandler);
+
+        parametre = (ImageButton) activity.findViewById(R.id.menuBar);
+        parametre.setOnClickListener(eventHandler);
 
         retour = (Button) activity.findViewById(R.id.b_retour);
         retour.setOnClickListener(eventHandler);
