@@ -1,27 +1,30 @@
 package com.example.gdca.model;
-import android.content.Context;
-import android.view.InflateException;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
-import androidx.annotation.NonNull;
-import androidx.appcompat.widget.AppCompatButton;
-import org.jetbrains.annotations.NotNull;
 
-public class Element{
+public abstract class Element{
 
     private String name;
 
+    private ListeElement father;
+
     public Element(String name){
         this.name = name;
+        father = null;
     }
 
     public String getName(){
         return this.name;
     }
 
-    public void affiche(){
-        System.out.print(name);
+    public void setFather(ListeElement elements){
+        father = elements;
+    }
+    public ListeElement getFather(){
+        return father;
+    }
+    public abstract void affiche();
+
+    public String toString(){
+        return "voici " + name;
     }
 }
 

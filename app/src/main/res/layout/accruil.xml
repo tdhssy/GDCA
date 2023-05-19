@@ -10,9 +10,12 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent">
+
         <ImageButton
                 android:src="@drawable/icon_menubar"
                 android:layout_width="50dp"
@@ -20,17 +23,50 @@
                 android:id="@+id/b_menu"
                 android:scaleType="fitCenter"
                 android:contentDescription="@string/Bouton_menu"
-                tools:ignore="MissingConstraints"/>
+                tools:ignore="MissingConstraints"
+                android:layout_marginLeft="10dp"/>
 
         <ImageButton
                 android:src="@drawable/what_icon"
                 android:layout_width="50dp"
-                android:layout_height="50dp" android:id="@+id/b_aide"
+                android:layout_height="50dp"
+                android:id="@+id/b_aide"
                 android:scaleType="fitCenter"
                 android:contentDescription="@string/Aide"
                 tools:ignore="MissingConstraints"
-                android:layout_marginLeft="250dp"/>
+                android:layout_marginLeft="10dp"/>
 
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="170dp"
+                android:id="@+id/manip"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageButton
+                    android:src="@drawable/house_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/b_principal"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/Aide"
+                    tools:ignore="MissingConstraints"/>
+
+            <ImageButton
+                    android:src="@drawable/back_arrow_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/b_retour"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/Aide"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
             android:orientation="vertical"
@@ -56,14 +92,14 @@
                 android:id="@+id/partie"
                 android:textSize="34sp"
                 android:textAlignment="center"
-                tools:ignore="MissingConstraints"
-                android:layout_marginTop="10dp"/>
+                tools:ignore="MissingConstraints"/>
 
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -74,14 +110,12 @@
                     android:layout_height="288dp"
                     android:id="@+id/listeGauche"
                     tools:ignore="DuplicateIds,MissingConstraints"
-                    android:layout_marginTop="20dp"
                     android:gravity="left"/>
             <ListView
                     android:layout_width="174dp"
                     android:layout_height="288dp"
                     android:id="@+id/listeDroite"
                     tools:ignore="DuplicateIds,MissingConstraints"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:gravity="right"/>
 

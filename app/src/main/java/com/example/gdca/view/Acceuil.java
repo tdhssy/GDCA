@@ -4,29 +4,33 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
 import com.example.gdca.controller.eventHandler.AcceuilController;
+import com.example.gdca.model.DescriptionElement;
 import com.example.gdca.model.Element;
 import com.example.gdca.model.GestionListe;
+import com.example.gdca.model.ListeElement;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 public class Acceuil extends View{
     private final OnClickListener eventHandler;
 
     private ImageButton menu;
     private ImageButton aide;
-
+    private ImageButton principal;
+    private ImageButton retour;
     private ListView listeGauche;
-
-    private GestionListe adapterGauche;
-
     private ListView listeDroite;
-
-    private GestionListe adapterDroite;
+    public static ListeElement listeElement;
+    public static LinearLayout manip;
+    private static GestionListe adapterGauche;
+    private static GestionListe adapterDroite;
 
     public Acceuil(ChangeView controller, Activity activity) {
         super(activity);
@@ -40,8 +44,13 @@ public class Acceuil extends View{
         aide = (ImageButton) activity.findViewById(R.id.b_aide);
         aide.setOnClickListener(eventHandler);
 
-        listeGauche = activity.findViewById(R.id.listeGauche);
+        principal = (ImageButton) activity.findViewById(R.id.b_principal);
+        principal.setOnClickListener(eventHandler);
 
+        retour = (ImageButton) activity.findViewById(R.id.b_retour);
+        retour.setOnClickListener(eventHandler);
+
+        listeGauche = activity.findViewById(R.id.listeGauche);
         listeDroite = activity.findViewById(R.id.listeDroite);
 
         adapterGauche = new GestionListe(this.getContext(), new ArrayList<Element>());
@@ -50,33 +59,41 @@ public class Acceuil extends View{
         adapterDroite = new GestionListe(this.getContext(), new ArrayList<Element>());
         listeDroite.setAdapter(adapterDroite);
 
-        ArrayList <Element> tests = new ArrayList<Element>();
-        tests.add(new Element("test1"));
-        tests.add(new Element("test2"));
-        tests.add(new Element("test3"));
-        tests.add(new Element("test4"));
-        tests.add(new Element("test5"));
-        tests.add(new Element("test6"));
-        tests.add(new Element("test7"));
+        manip = (LinearLayout) activity.findViewById(R.id.manip);
+        manip.setVisibility(View.INVISIBLE);
 
-        nouvelleListe(tests);
-
+        menuPrincipal();
     }
 
-    private void nouvelleListe(ArrayList<Element> elements){
+    public static void nouvelleAffichage(ListeElement listeE){
 
         adapterGauche.clear();
         adapterDroite.clear();
-        if(elements.size()<8) {
-            for (Element element : elements) {
+        ArrayList<Element> elements = listeE.getElements();
+
+        if (elements.size() < 9) {
+            for (Element e : elements) {
                 if (adapterGauche.getCount() < 4) {
-                    adapterGauche.add(element);
+                    adapterGauche.add(e);
                 } else if (adapterDroite.getCount() < 4) {
-                    adapterDroite.add(element);
+                    adapterDroite.add(e);
                 }
             }
-        }else{
+            listeElement = listeE;
+        } else {
             System.out.println("Il a plus de 8 élement dans votre liste impossible de rajouter a la view");
         }
+    }
+
+    public static void menuPrincipal(){
+
+        ListeElement home = new ListeElement("home");
+        ListeElement listTest1 = new ListeElement("listTest1");
+        ListeElement listTest2 = new ListeElement("listTest2");
+        listTest2.ajout(new DescriptionElement("descriptionTest"));
+        listTest1.ajout(listTest2);
+        home.ajout(listTest1);
+
+        nouvelleAffichage(home);
     }
 }
