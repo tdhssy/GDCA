@@ -17,6 +17,7 @@ public class AideController extends Controller implements View.OnClickListener {
         switch (view.getId())
         {
             case R.id.b_retour:
+            case R.id.RetourButton:
                 controller_view.retourArriere(currentActivity);
                 break;
         }
