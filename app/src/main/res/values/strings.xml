@@ -6,6 +6,7 @@
     <string name="Bouton_go_parametre">Paramètres</string>
     <string name="Bouton_retour">Retour</string>
     <string name="Bouton_menu">Menu</string>
+    <string name="Bouton_acceuil">Acceuil</string>
     <string name="Preference">Préférence</string>
     <string name="APropos">A propos</string>
     <string name="AppelerUnExpert">Appeler un expert</string>

@@ -22,6 +22,19 @@ public class ParametreController extends Controller implements View.OnClickListe
             case R.id.b_retour:
                 controller_view.retourArriere(currentActivity);
                 break;
+            case R.id.b_acceuil:
+                controller_view.swap(currentActivity, PageName.ACCEUIL, PageName.PARAMETRE);
+                break;
+            case R.id.b_preference:
+                //Je ne sais pas ce que ce bouton fait
+                break;
+            case R.id.b_a_propos:
+                break;
+            case R.id.b_quitter:
+                //Quitte l'application
+                currentActivity.finish();
+                System.exit(0);
+                break;
         }
     }
 }
