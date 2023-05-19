@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
                                                    android:layout_height="match_parent">
-
-    <TextView
-            android:text="Parametre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/b_retour"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintBottom_toBottomOf="parent"
-            android:text="@string/Bouton_retour"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="1dp"
+            android:layout_marginEnd="1dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="1dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="1dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="end">
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" app:srcCompat="@drawable/back_arrow_icon"
+                    android:id="@+id/b_retour" android:layout_weight="1" android:scaleType="fitCenter"
+                    android:contentDescription="@string/Bouton_retour" android:backgroundTint="#FFFFFF"/>
+            <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" app:srcCompat="@drawable/house_icon"
+                    android:id="@+id/b_acceuil" android:layout_weight="1" android:scaleType="fitCenter"
+                    android:backgroundTint="#FFFFFF" android:contentDescription="@string/Bouton_acceuil"
+                    android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center_horizontal" android:background="#9E9E9E"
+                android:layout_marginTop="10dp">
+            <TextView
+                    android:text="@string/Bouton_go_parametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/titre_parametre"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    android:textAlignment="center" android:background="#03A9F4"
+            />
+            <Button
+                    android:text="@string/Preference"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" android:id="@+id/b_preference"
+                    android:contentDescription="@string/Preference" android:insetTop="60dp" android:textSize="20sp"
+                    app:cornerRadius="50dp"/>
+            <Button
+                    android:text="@string/APropos"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" android:id="@+id/b_a_propos"
+                    android:contentDescription="@string/APropos" app:cornerRadius="50dp" android:textSize="20sp"/>
+            <Button
+                    android:text="@string/Quitter"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" android:id="@+id/b_quitter"
+                    android:contentDescription="@string/Quitter" android:insetTop="200dp" android:textSize="20sp"
+                    app:cornerRadius="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

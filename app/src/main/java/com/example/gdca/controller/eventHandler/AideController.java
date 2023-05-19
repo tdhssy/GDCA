@@ -16,7 +16,11 @@ public class AideController extends Controller implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId())
         {
+            case R.id.menuBar:
+                controller_view.swap(currentActivity, PageName.PARAMETRE, PageName.AIDE);
+                break;
             case R.id.b_retour:
+            case R.id.RetourButton:
                 controller_view.retourArriere(currentActivity);
                 break;
         }
