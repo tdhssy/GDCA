@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.view.View;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
+import com.example.gdca.model.Model;
 import com.example.gdca.model.PageName;
 import com.example.gdca.view.Acceuil;
 
@@ -12,8 +13,10 @@ import com.example.gdca.view.Acceuil;
  */
 public class AcceuilController extends Controller implements View.OnClickListener {
 
+    Model model;
     public AcceuilController(ChangeView controller, Activity activity) {
         super(controller, activity);
+
     }
     @Override
     public void onClick(View view) {
@@ -28,7 +31,8 @@ public class AcceuilController extends Controller implements View.OnClickListene
                 break;
             case R.id.b_principal:
                 Acceuil.manip.setVisibility(View.INVISIBLE);
-                Acceuil.menuPrincipal();
+
+                Acceuil.menuPrincipal(model.getHierachie());
                 break;
             case R.id.b_retour:
                 if(Acceuil.listeElement.getFather().getFather() == null) {

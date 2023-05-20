@@ -16,8 +16,8 @@ public class ChangeView {
     private View cView;
     private Stack<PageName> pile_deplacement; //Pile utilisée pour les retours en arrière.
 
-    public ChangeView(){
-        cModel = new Model();
+    public ChangeView(Model model){
+        cModel = model;
         pile_deplacement = new Stack<>();
     }
 
@@ -29,10 +29,13 @@ public class ChangeView {
      */
     public void swap(Activity activity, PageName to_go_page, PageName parent)
     {
+
         switch (to_go_page)
         {
             case ACCEUIL:
-                cView = new Acceuil(this, activity);
+
+                cView = new Acceuil(this, activity,cModel.getHierachie());
+
                 pile_deplacement.clear(); //On est de retour au point de départ
                 break;
             case PARAMETRE:
@@ -58,5 +61,9 @@ public class ChangeView {
     public void retourArriere(Activity activity)
     {
         swap(activity, pile_deplacement.pop(), pile_deplacement.peek());
+    }
+
+    public Model getcModel() {
+        return cModel;
     }
 }

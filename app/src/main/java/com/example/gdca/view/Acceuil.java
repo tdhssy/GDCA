@@ -2,21 +2,17 @@ package com.example.gdca.view;
 
 import android.app.Activity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import com.example.gdca.R;
 import com.example.gdca.controller.ChangeView;
 import com.example.gdca.controller.eventHandler.AcceuilController;
-import com.example.gdca.model.DescriptionElement;
 import com.example.gdca.model.Element;
 import com.example.gdca.model.GestionListe;
 import com.example.gdca.model.ListeElement;
-
 import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ConcurrentSkipListSet;
+
 
 public class Acceuil extends View{
     private final OnClickListener eventHandler;
@@ -32,7 +28,7 @@ public class Acceuil extends View{
     private static GestionListe adapterGauche;
     private static GestionListe adapterDroite;
 
-    public Acceuil(ChangeView controller, Activity activity) {
+    public Acceuil(ChangeView controller, Activity activity,ListeElement home) {
         super(activity);
         eventHandler = new AcceuilController(controller, activity);
 
@@ -62,7 +58,7 @@ public class Acceuil extends View{
         manip = (LinearLayout) activity.findViewById(R.id.manip);
         manip.setVisibility(View.INVISIBLE);
 
-        menuPrincipal();
+        menuPrincipal(home);
     }
 
     public static void nouvelleAffichage(ListeElement listeE){
@@ -85,15 +81,7 @@ public class Acceuil extends View{
         }
     }
 
-    public static void menuPrincipal(){
-
-        ListeElement home = new ListeElement("home");
-        ListeElement listTest1 = new ListeElement("listTest1");
-        ListeElement listTest2 = new ListeElement("listTest2");
-        listTest2.ajout(new DescriptionElement("descriptionTest"));
-        listTest1.ajout(listTest2);
-        home.ajout(listTest1);
-
+    public static void menuPrincipal(ListeElement home){
         nouvelleAffichage(home);
     }
 }

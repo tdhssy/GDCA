@@ -11,6 +11,8 @@ public abstract class Element{
         father = null;
     }
 
+
+
     public String getName(){
         return this.name;
     }
