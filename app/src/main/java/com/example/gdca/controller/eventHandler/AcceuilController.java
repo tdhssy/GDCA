@@ -13,10 +13,10 @@ import com.example.gdca.view.Acceuil;
  */
 public class AcceuilController extends Controller implements View.OnClickListener {
 
-    Model model;
-    public AcceuilController(ChangeView controller, Activity activity) {
+    private Model model;
+    public AcceuilController(ChangeView controller, Activity activity, Model model) {
         super(controller, activity);
-
+        this.model = model;
     }
     @Override
     public void onClick(View view) {
@@ -31,7 +31,6 @@ public class AcceuilController extends Controller implements View.OnClickListene
                 break;
             case R.id.b_principal:
                 Acceuil.manip.setVisibility(View.INVISIBLE);
-
                 Acceuil.menuPrincipal(model.getHierachie());
                 break;
             case R.id.b_retour:

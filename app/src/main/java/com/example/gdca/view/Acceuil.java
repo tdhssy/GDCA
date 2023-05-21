@@ -11,6 +11,8 @@ import com.example.gdca.controller.eventHandler.AcceuilController;
 import com.example.gdca.model.Element;
 import com.example.gdca.model.GestionListe;
 import com.example.gdca.model.ListeElement;
+import com.example.gdca.model.Model;
+
 import java.util.ArrayList;
 
 
@@ -23,14 +25,15 @@ public class Acceuil extends View{
     private ImageButton retour;
     private ListView listeGauche;
     private ListView listeDroite;
+
     public static ListeElement listeElement;
     public static LinearLayout manip;
     private static GestionListe adapterGauche;
     private static GestionListe adapterDroite;
 
-    public Acceuil(ChangeView controller, Activity activity,ListeElement home) {
+    public Acceuil(ChangeView controller, Activity activity,ListeElement home, Model model) {
         super(activity);
-        eventHandler = new AcceuilController(controller, activity);
+        eventHandler = new AcceuilController(controller, activity, model);
 
         activity.setContentView(R.layout.accruil);
 

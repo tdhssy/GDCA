@@ -34,7 +34,7 @@ public class ChangeView {
         {
             case ACCEUIL:
 
-                cView = new Acceuil(this, activity,cModel.getHierachie());
+                cView = new Acceuil(this, activity,cModel.getHierachie(), cModel);
 
                 pile_deplacement.clear(); //On est de retour au point de départ
                 break;

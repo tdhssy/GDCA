@@ -12,9 +12,10 @@ public class Model {
 
         this.currentContext = context;
         hierachie = InitHierachie();
+    }
 
-
-
+    public String toString(){
+        return "hello";
     }
 
     private ListeElement InitHierachie(){
