@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                                                   android:layout_width="match_parent"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                                    android:layout_height="match_parent">
 
     <TextView
-            android:text="Description"
+            android:text="@string/Partie"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:layout_height="wrap_content" android:id="@+id/nom_partie"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="0.106"
+            android:textSize="26sp"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/b_retour"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintBottom_toBottomOf="parent"
-            android:text="@string/Bouton_retour"/>
+            app:layout_constraintTop_toBottomOf="@+id/nom_partie"
+            android:text="@string/Bouton_retour" android:layout_marginTop="556dp"
+            app:layout_constraintHorizontal_bias="0.512"/>
+    <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp" app:srcCompat="@drawable/icon_menubar" android:id="@+id/go_accueil"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toLeftOf="parent" android:layout_marginLeft="16dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"/>
+    <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp" app:srcCompat="@drawable/back_arrow_icon"
+            android:id="@+id/go_back"
+            android:scaleType="fitCenter" app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"/>
+    <TextView
+            android:text="problème"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/nom_probeme"
+            app:layout_constraintTop_toBottomOf="@id/nom_partie" android:layout_marginTop="8dp"
+            android:textSize="26sp" app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@android:drawable/presence_busy"
+            android:id="@+id/Danger"
+            app:layout_constraintBottom_toTopOf="@id/explication_probleme" app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/niveau_danger"
+            app:layout_constraintTop_toBottomOf="@id/nom_probeme" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="56dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="60dp" android:id="@+id/niveau_danger"
+            app:layout_constraintBottom_toTopOf="@id/explication_probleme"
+            app:layout_constraintLeft_toRightOf="@id/Danger" app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nom_probeme" app:layout_constraintHorizontal_bias="1.0"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="300dp"
+            android:layout_height="181dp" android:id="@+id/proposition_solution"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/explication_probleme"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="298dp"
+            android:layout_height="71dp" android:id="@+id/explication_probleme"
+            android:layout_marginBottom="19dp"
+            app:layout_constraintBottom_toTopOf="@+id/proposition_solution"
+            app:layout_constraintTop_toBottomOf="@+id/Danger" app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

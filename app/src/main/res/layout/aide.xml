@@ -16,7 +16,7 @@
     <TextView
             android:text="@string/Aide"
             android:layout_width="200dp"
-            android:layout_height="60dp" android:id="@+id/textView"
+            android:layout_height="60dp" android:id="@+id/nom_partie"
             app:autoSizeTextType="uniform" android:fontFamily="sans-serif-black" app:barrierMargin="3pt"
             android:background="#FFF443" android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:gravity="center" app:layout_constraintEnd_toStartOf="@+id/RetourButton"
@@ -40,7 +40,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             android:gravity="center" android:id="@+id/linearLayout" app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintTop_toBottomOf="@+id/textView">
+            app:layout_constraintTop_toBottomOf="@+id/nom_partie">
         <ImageView
                 android:layout_width="320dp"
                 android:layout_height="440dp" android:src="@drawable/bike_fullpicture" android:id="@+id/imageView2"
