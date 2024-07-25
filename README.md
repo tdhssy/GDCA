@@ -47,7 +47,7 @@ Comment rendre l'entretien et la réparation des vélos plus accessibles aux usa
     
 ## Auteurs
 
-- [@LuffyVanquish](https://github.com/LuffyVanquish)
+- [@tdhssy](https://github.com/tdhssy)
 
 - [@vErifet](https://github.com/vErifet)
 
